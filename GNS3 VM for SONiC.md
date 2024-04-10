@@ -22,4 +22,15 @@ Use GNS3 to run SONiC simulator VMs. GNS3 consists of the following components:
 
 Once the GNS3 VM is installed and application is opened. We see a window as shown below,
 
-![GNS3 application window](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image1.jpg)
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image1.jpg)
+
+
+In the GNS3 window, create a project.
+
+a. Select File->New blank project.
+b. Name: Enter a new project name.
+c. Location: The default projects folder name changes to the new project name.
+d. Click OK.
+
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image2.jpg)
+
