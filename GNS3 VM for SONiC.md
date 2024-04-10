@@ -22,4 +22,4 @@ Use GNS3 to run SONiC simulator VMs. GNS3 consists of the following components:
 
 Once the GNS3 VM is installed and application is opened. We see a window as shown below,
 
-![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image1.jpg)
+![GNS3 application window](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image1.jpg)
