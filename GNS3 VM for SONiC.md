@@ -34,3 +34,7 @@ d. Click OK.
 
 ![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image2.jpg)
 
+The project window opens. The window title displays the name of the new project.
+
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image3.jpg)
+
