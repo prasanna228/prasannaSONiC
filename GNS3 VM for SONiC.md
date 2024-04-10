@@ -11,8 +11,15 @@ Use GNS3 to run SONiC simulator VMs. GNS3 consists of the following components:
 	- GNS3 server — Controls SONiC VM execution (natively supported on Ubuntu Linux running on a Dell server)
 	
 ### GNS3 VM installation overview
+
 1. Install GNS3 on a windows enviorment using [GNS3 VM installation guide](https://docs.gns3.com/docs/getting-started/installation/windows/#:~:text=The%20following%20are%20the%20optimal%20requirements%20for%20a,%2F%20RVI%20Series%20or%20Intel%20VT-X%20%2F%20EPT).
 2. Download the SONiC image from the azure pipeline to the windows enviorment.
 3. Import the SONiC image the GNS3 VM enviorment.
 4. Build your SONiC topology virtual devices.
 5. Log in and configure each device.
+
+### GNS3 VM set up
+
+Once the GNS3 VM is installed and application is opened. We see a window as shown below,
+
+![](https://github.com/prasanna228/prasannaSONiC/tree/main/assets/img/GNS3VM/image1)
