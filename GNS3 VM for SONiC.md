@@ -38,3 +38,48 @@ The project window opens. The window title displays the name of the new project.
 
 ![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image3.jpg)
 
+Install an SONiC image for GNS3 appliance file.
+	- Go to [SONiC pipeline](https://sonic-build.azurewebsites.net/ui/sonic/pipelines) and select the version of the SONiC image that you want to use.
+	- Select an SONiC build image zip file and click Download. The zip file contains an SONiC image file.
+	- On the windows environment, extract the SONiC image file.
+	
+In the GNS3 project window, Click on New template on the left corner of the screen
+Select the option "Manually createa new template"
+
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image4.jpg)
+
+Under the new tab, select Qemu VM and then select a new template as shown below. Key in the desired type of device and its RAM details as recommended. 
+
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image5.jpg)
+
+Now, we should be able to find a new device on the left side panel to configure our device template. 
+	- In the QEMU VM template configuration window, under the General Settings tab, change the RAM size to 8192 MB (8GB) and the vCPU number to 4.
+	- Select Auto Start Console to automatically open the console when the Community SONiC appliances start.
+	- Click OK to save the changes.
+
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image6.jpg)
+
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image7.jpg)
+
+
+### Build your network topology
+
+In the GNS3 project window, click the Browse Routers icon on the left side bar. Drag and drop CommunitySONiC devices in the middle project frame as required for your network topology. Place each device in the appropriate location on the screen. To rename a switch, click its icon and overwrite the text
+
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image8.jpg)
+
+Connect the Community SONiC switches. Select the "Add a link" icon on the left side bar. Click a switch in the project frame and select an available port in the drop-down list.
+
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image9.jpg)
+
+Drag the connection line to another switch, click the switch icon, and select a port from the drop-down list to establish the link.
+
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image10.jpg)
+
+Repeat this step to connect each Community SONiC devices. 
+
+Configure the Management IP address on each Community SONiC switch. Start each Community SONiC switch by right-clicking the icon and selecting Start. The connections from the switch to other devices in the project frame turn from red to green and the console window opens.
+
+In the console window of each Enterprise SONiC switch, log in by entering the default username admin and the default password YourPaSsWoRd.
+
+Access Configuration mode in the Community SONiC command-line interface to configure each switch. See the Community [SONiC User Guide](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC-User-Manual.md) for configuration information and procedures.
