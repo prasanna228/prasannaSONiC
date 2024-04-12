@@ -4,11 +4,13 @@ GNS3 is an environment that allows simulation of networking equipment in realist
 consisting of only a few devices on your Windows 10 laptop, or larger network topologies using a GNS Server that is installed on an Ubuntu Linux server. You can use the GNS3 simulator to create a virtual environment to emulate various networks. See [GNS3 online documentation](https://docs.gns3.com/) and [Getting started](https://docs.gns3.com/docs/) with GNS3 for complete information.
 Use GNS3 to run SONiC simulator VMs. GNS3 consists of the following components:
 ### For Windows Model
-	- GNS3 user interface — Used to create and visualize network connections for the Windows enviorment.
+
+GNS3 user interface — Used to create and visualize network connections for the Windows enviorment.
 
 ### For Client Server Model
-	- GNS3 client — Used to create and visualize complex network connections for the Windows enviorment. 
-	- GNS3 server — Controls SONiC VM execution (natively supported on Ubuntu Linux running on a Dell server)
+
+GNS3 client — Used to create and visualize complex network connections for the Windows enviorment. 
+GNS3 server — Controls SONiC VM execution (natively supported on Ubuntu Linux running on a Dell server)
 	
 ### GNS3 VM installation overview
 
