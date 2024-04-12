@@ -63,6 +63,7 @@ Now, we should be able to find a new device on the left side panel to configure 
 
 ![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image7.jpg)
 
+![](https://github.com/prasanna228/prasannaSONiC/blob/main/assets/img/GNS3VM/image11.jpg)
 
 ### Build your network topology
 
