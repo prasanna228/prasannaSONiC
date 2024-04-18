@@ -4,38 +4,38 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 
 | Release    | Release Date | SAI version   | Features Included                  |
 |------------|--------------|---------------|------------------------------------|
-|SONiC.202311| 11/30/2023   |  SAI1.13.1    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/14) |
-|		     |				|				| [DASH] ACL tags HLD  |
+|SONiC.202311| 11/30/2023   |  SAI1.13.3    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/14) |
+|		     |				|				| [[DASH] ACL tags HLD](https://github.com/sonic-net/SONiC/blob/master/doc/dash/dash-acl-tags/dash-acl-tags.md)  |
 |		  	 |				|				| AMD-Pensando ELBA SOC support |
-|			 |				|				| Auto FEC | 
-|  			 |				|				| Banner HLD |
+|			 |				|				| [Auto FEC](https://github.com/sonic-net/SONiC/blob/master/doc/port_auto_neg/auto-fec.md) | 
+|  			 |				|				| [Banner HLD](https://github.com/sonic-net/SONiC/blob/master/doc/banner/banner_hld.md) |
 |			 |				|				| FRR version 8.5.1 Upgrade | 
 |			 |				|				| Build improvements changes |
-|			 |				|				| CMIS host management - Port signal integrity per speed | 
-|			 |				|				| CMIS Module Management Enhancement HLD  | | 
-|			 |				|				| Container Hardening | 
-|			 |				|				| Create CMIS-custom-SI-settings.md | 
-|			 |				|				| Egress Sflow Enhancement. | 
-|			 |				|				| Factory reset | 
-|			 |				|				| Fix containers deployments dependencies on boot/config_reload affecting user experience | 
-|			 |				|				| gNMI Master Arbitration | 
-|	         |				|				| High-level design for Wake-on-LAN feature in SONiC | 
+|			 |				|				| [CMIS host management - Port signal integrity per speed](https://github.com/sonic-net/SONiC/blob/master/doc/port-si/Port_SI_Per_Speed.md) | 
+|			 |				|				| [CMIS Module Management Enhancement HLD](https://github.com/sonic-net/SONiC/blob/master/doc/cmis-module-enhancement/cmis-module-enhancement.md) | 
+|			 |				|				| [Container Hardening](https://github.com/sonic-net/SONiC/blob/master/doc/Container%20Hardening/SONiC_container_hardening_HLD.md) | 
+|			 |				|				| [Create CMIS-custom-SI-settings.md](https://github.com/sonic-net/SONiC/blob/master/doc/sfp-cmis/CMIS-custom-SI-settings.md) | 
+|			 |				|				| [Egress Sflow Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/sflow/sflow_hld.md) | 
+|			 |				|				| [Factory reset](https://github.com/sonic-net/SONiC/blob/master/doc/reset_factory/ResetFactoryHLD.md) | 
+|			 |				|				| [Fix containers deployments dependencies on boot/config_reload affecting user experience](https://github.com/sonic-net/SONiC/blob/master/doc/config_reload/config_reload_enhancement.md) | 
+|			 |				|				| [gNMI Master Arbitration](https://github.com/sonic-net/SONiC/blob/master/doc/mgmt/gnmi/master_arbitration.md) | 
+|	         |				|				| [High-level design for Wake-on-LAN feature in SONiC](https://github.com/sonic-net/SONiC/blob/master/doc/wol/Wake-on-LAN-HLD.md) | 
 |			 |				|				| Libvs Port Counter Support | 
 |			 |				|				| NAT Bookworm Upgrade | 
-|			 |				|				| NTP: Additional NTP configuration knobs + NTP server provisioning | 
+|			 |				|				| [NTP: Additional NTP configuration knobs + NTP server provisioning](https://github.com/sonic-net/SONiC/blob/master/doc/ntp/ntp-design.md) | 
 |			 |				|				| PDDF System Fan Enhancement | 
 |			 |				|				| PDDF support for Ufispace platforms and GPIO extension | 
 |			 |				|				| Persistent DNS address across reboots | 
 |			 |				|				| RADIUS NSS Vulnerability | 
-|			 |				|				| [SNMP]: SONiC SNMP Changes to support IPv6 | 
-|			 |				|				| SSH global config | 
+|			 |				|				| [[SNMP]: SONiC SNMP Changes to support IPv6](https://github.com/sonic-net/SONiC/blob/master/doc/snmp/snmp-changes-to-support-ipv6.md) | 
+|			 |				|				| [SSH global config](https://github.com/sonic-net/SONiC/blob/master/doc/ssh_config/ssh_config.md) | 
 |			 |				|				| Sflow 800G Support | 
 |			 |				|				| TACACS NSS Vulnerability | 
 |			 |				|				| UMF: Additional Optimizations for Transformer Infrastructure | 
 |			 |				|				| UMF Infra Enhancement for SONIC-YANG | 
-|		     |				|				| UMF Subscription Infra Phase 2 | 
+|		     |				|				| [UMF Subscription Infra Phase 2](https://github.com/sonic-net/SONiC/blob/master/doc/mgmt/gnmi/gNMI_Subscription_for_YangData.md) | 
 |			 |				|				| Upgrade hsflowd and remove dropmon build flags |
-|			 |				|				| Virtual SONiC Network Helper | 			
+|			 |				|				| [Virtual SONiC Network Helper](https://github.com/ramakristipati/sonic-mgmt/blob/master/spytest/Doc/vsnet.md) | 			
 |SONiC.202305| 05/31/2023   |  SAI1.12.0    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/8) |
 |			 |				|				|  ACL keys for matching BTH_opcode and AETH_syndrome |
 |			 |				|				| [Auto tech support w/orchagent abort case](https://github.com/vivekrnv/SONiC/blob/cabbac08f54246dd61a1f65dec320f9a08deb721/doc/auto_techsupport/auto_techsupport_and_coredump_mgmt.md) | 
