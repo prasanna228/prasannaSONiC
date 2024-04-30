@@ -63,8 +63,8 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 | ***Go Code format checker and formatter*** |      | [1678](https://github.com/sonic-net/SONiC/issues/1678) | Alpha |
 | ***RESTCONF infra enhancement*** |      | [1679](https://github.com/sonic-net/SONiC/issues/1679) | Alpha |
 | ***SONiC Debian Upgrade Cadence process improvement*** |      | [1632](https://github.com/sonic-net/SONiC/issues/1632) | Alpha |
-| ***TLS1.3 Support*** |      |       |      |
-| ***Upgrade SWSS/SyncD to debian 12*** |      |       |      |
+| ***TLS1.3 Support*** |      | [1531](https://github.com/sonic-net/SONiC/issues/1531) | Alpha |
+| ***Upgrade SWSS/SyncD to debian 12*** |      | [1670](https://github.com/sonic-net/SONiC/pull/1670) | Alpha |
 
 
 Note : The HLD PR's have been updated in ""HLD PR / PR tracki
