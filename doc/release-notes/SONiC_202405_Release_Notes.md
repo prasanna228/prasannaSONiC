@@ -55,13 +55,13 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 | Feature| Feature Description | HLD PR / PR tracking |	Quality |
 | ------ | ------- | -----|-----|
 | ***Add SRv6 SID L3Adj*** | This feature describes the extensions of SRv6Orch required to support the programming of the L3Adj associated with SRv6 uA, End.X, uDX4, uDX6, End.DX4, and End.DX6 behaviors.     |  [1472](https://github.com/sonic-net/SONiC/pull/1472)     | Alpha |
-| ***Bookworm Upgrade LLDP, SNMP subagent, ICCPD, PDE*** | This feature impliments the bookworm upgrade for LLDP, SNMP subagent, ICCPD, PDE |  [1677](https://github.com/sonic-net/SONiC/issues/1677)     | Alpha |
-| ***CVL dynamic table field support*** |      | [1682](https://github.com/sonic-net/SONiC/issues/1682) | Alpha |
-| ***CVL Infra Enhancement*** |      |  [1680](https://github.com/sonic-net/SONiC/issues/1680) | Alpha |
-| ***CVL singleton table and multi-list table support*** |      | [1681](https://github.com/sonic-net/SONiC/issues/1681)      | Alpha |
-| ***Extend CMIS host management to support warmboot and fastboot*** |      | [1663](https://github.com/sonic-net/SONiC/pull/1663) | Alpha |
-| ***Go Code format checker and formatter*** |      | [1678](https://github.com/sonic-net/SONiC/issues/1678) | Alpha |
-| ***RESTCONF infra enhancement*** |      | [1679](https://github.com/sonic-net/SONiC/issues/1679) | Alpha |
+| ***Bookworm Upgrade LLDP, SNMP subagent, ICCPD, PDE*** | This feature implements the bookworm upgrade for LLDP, SNMP subagent, ICCPD, PDE |  [1677](https://github.com/sonic-net/SONiC/issues/1677)     | Alpha |
+| ***CVL dynamic table field support*** | This implements the CVL relying on 2-key list, to determine the mapping instead it should rely on one key and one non-key leaf. | [1682](https://github.com/sonic-net/SONiC/issues/1682) | Alpha |
+| ***CVL Infra Enhancement*** | This implements the enhancement, fix and optimisation of CVL infra. |  [1680](https://github.com/sonic-net/SONiC/issues/1680) | Alpha |
+| ***CVL singleton table and multi-list table support*** | When dependent target TABLE has multiple lists, if there exists a partial dependency, the loosely hanging LIST was causing sorting issue. This feature implements the fix as retained the last LIST entry instead of first & injected dependency on all target LISTs of the TABLE. | [1681](https://github.com/sonic-net/SONiC/issues/1681)      | Alpha |
+| ***Extend CMIS host management to support warmboot and fastboot*** | This feature implements the process on TRANSCEIVER_INFO STATE_DB table on warm start to configure SAI_PORT_ATTR_HOST_TX_SIGNAL_ENABLE on warm boot.And also saves the TRANSCEIVER_INFO/STATUS tables on warm/fast-reboot. | [1663](https://github.com/sonic-net/SONiC/pull/1663) | Alpha |
+| ***Go Code format checker and formatter*** | This implements the go code format checker and also formatted the files which don't adhere to go formats. Build will fail if there exists any formatting issue. | [1678](https://github.com/sonic-net/SONiC/issues/1678) | Alpha |
+| ***RESTCONF infra enhancement*** | This feature adds the tests for openAPI spec generator, OpenAPI spec generator is enhanced to generate rest-server stubs, this replaces the OpenAPI-generator from community. Also removed the openAPI client generation and added Restconf document generator. Upgraded specs to openAPI 3.0. | [1679](https://github.com/sonic-net/SONiC/issues/1679) | Alpha |
 | ***SONiC Debian Upgrade Cadence process improvement*** |      | [1632](https://github.com/sonic-net/SONiC/issues/1632) | Alpha |
 | ***TLS1.3 Support*** |      | [1531](https://github.com/sonic-net/SONiC/issues/1531) | Alpha |
 | ***Upgrade SWSS/SyncD to debian 12*** |      | [1670](https://github.com/sonic-net/SONiC/pull/1670) | Alpha |
