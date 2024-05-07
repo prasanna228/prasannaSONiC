@@ -24,7 +24,7 @@ Image  : https://sonic-build.azurewebsites.net/ui/sonic/pipelines  (Example - Im
 |Feature                    | Version  |
 | ------------------------- | --------------- |
 | Linux kernel version      | linux_5.10.0-23-2-$(5.10.179)  |
-| SAI   version             | SAI v1.13.3    |
+| SAI   version             | SAI v1.14.0    |
 | FRR                       | 8.5.1   |
 | LLDPD                     | 1.0.16-1+deb12u1 |
 | TeamD                     | 1.30-1    |
