@@ -54,6 +54,8 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 
 | Feature| Feature Description | HLD PR / PR tracking |	Quality |
 | ------ | ------- | -----|-----|
+| ***Add details of sff_mgr regarding deterministic bringup for SFF compliant modules*** | This feature adds a new thread sff_mgr under xcvrd to provide deterministic link bringup feature for SFF compliant modules (100G/40G) | [1334](https://github.com/sonic-net/SONiC/pull/1334) | Alpha |
+| ***Add HLD for IPv4 port based DHCP server in SONiC*** | This feature implements the design details of ipv4 port based DHCP server in SONiC.  | [1282](https://github.com/sonic-net/SONiC/pull/1282) |  Alpha |
 | ***Add SRv6 SID L3Adj*** | This feature describes the extensions of SRv6Orch required to support the programming of the L3Adj associated with SRv6 uA, End.X, uDX4, uDX6, End.DX4, and End.DX6 behaviors.     |  [1472](https://github.com/sonic-net/SONiC/pull/1472)     | Alpha |
 | ***Bookworm Upgrade LLDP, SNMP subagent, ICCPD, PDE*** | This feature implements the bookworm upgrade for LLDP, SNMP subagent, ICCPD, PDE |  [1677](https://github.com/sonic-net/SONiC/issues/1677)     | Alpha |
 | ***CVL dynamic table field support*** | This implements the CVL relying on 2-key list, to determine the mapping instead it should rely on one key and one non-key leaf. | [1682](https://github.com/sonic-net/SONiC/issues/1682) | Alpha |
@@ -64,6 +66,11 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 | ***RESTCONF infra enhancement*** | This feature adds the tests for openAPI spec generator, OpenAPI spec generator is enhanced to generate rest-server stubs, this replaces the OpenAPI-generator from community. Also removed the openAPI client generation and added Restconf document generator. Upgraded specs to openAPI 3.0. | [1679](https://github.com/sonic-net/SONiC/issues/1679) | Alpha |
 | ***SONiC Debian Upgrade Cadence process improvement*** |      | [1632](https://github.com/sonic-net/SONiC/issues/1632) | Alpha |
 | ***TLS1.3 Support*** |      | [1531](https://github.com/sonic-net/SONiC/issues/1531) | Alpha |
+| ***UMF Config Session Support*** | This feature on config session changes includes config session, locking, transaction size limit. |	[1518](https://github.com/sonic-net/SONiC/pull/1518) | Alpha |
+| ***UMF infra enhancement*** |	This feature describes the high level design for SONiC Telemetry service and Translib infrastructure changes to support gNMI subscriptions and wildcard paths for YANG defined paths. |	[1287](https://github.com/sonic-net/SONiC/pull/1287) | Alpha |
+| ***UMF: OpenConfig YANG support for Physical Interfaces*** |	This feature implements the transformer support for openconfig interfaces.	| [1628](https://github.com/sonic-net/SONiC/pull/1628) | Alpha	|
+| ***UMF: Transformer Infrastructure***	| This feature describes the design for SONiC Telemetry service and Translib infrastructure changes to support gNMI subscriptions and wildcard paths for YANG defined paths. | [1287](https://github.com/sonic-net/SONiC/pull/1287)	| Alpha	|
+| ***Upgrade FRR to 8.5.4*** | This feature upgrades the FRR 8.5.4 to include latest fixes.	| [18669](https://github.com/sonic-net/sonic-buildimage/pull/18669)	| Alpha	|
 | ***Upgrade SWSS/SyncD to debian 12*** |      | [1670](https://github.com/sonic-net/SONiC/pull/1670) | Alpha |
 
 
