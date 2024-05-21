@@ -36,7 +36,7 @@ Image  : https://sonic-build.azurewebsites.net/ui/sonic/pipelines  (Example - Im
 | isc-dhcp                  | 4.4.1-2.3+deb11u2  |
 | sonic-telemetry           | 1.1    |
 | redis-server/ redis-tools | 5.0.3-3~bpo9+2    |
-| Debian version			| Migrated to Cadence (Debian version 12)	|
+| Debian version			| Migrated to Bookworm (Debian version 12)	|
 
 Note : The kernel version is migrated to the version that is mentioned in the first row in the above 'Dependency Version' table.
 
