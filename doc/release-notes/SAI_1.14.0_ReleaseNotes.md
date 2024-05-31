@@ -7,9 +7,9 @@ This document explains the new SAI features as well as the enhancements and the 
 
 ### List of enhancements added in this release: 
 
-SAI Proposal for PoE Support - [PR#1977](https://github.com/opencomputeproject/SAI/pull/1977) <br> <br>
-Update sai version to v1.14.0 - [PR#1991](https://github.com/opencomputeproject/SAI/pull/1991) <br> <br>
-Modified the test script to match ACL match fields which should be configured to match l4 src and dst port - [PR#1960](https://github.com/opencomputeproject/SAI/pull/1960) <br> <br>
+SAI Proposal for PoE Support - [PR#1977](https://github.com/opencomputeproject/SAI/pull/1977) <br>
+Update sai version to v1.14.0 - [PR#1991](https://github.com/opencomputeproject/SAI/pull/1991) <br>
+Modified the test script to match ACL match fields which should be configured to match l4 src and dst port - [PR#1960](https://github.com/opencomputeproject/SAI/pull/1960) <br>
 Modified the saiacl test suite to fix Invalid IP prefix format error while Creating route entry - [PR#1959](https://github.com/opencomputeproject/SAI/pull/1959) <br>
 Add attribute to query the capability of Pre-Ingress ACL stage - [PR#1984](https://github.com/opencomputeproject/SAI/pull/1984) <br>
 Move the tunnel decapsulation before L2/L3 - [PR#1938](https://github.com/opencomputeproject/SAI/pull/1938) <br>
