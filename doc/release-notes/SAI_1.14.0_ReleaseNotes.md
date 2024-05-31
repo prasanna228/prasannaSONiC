@@ -49,7 +49,7 @@ Use libsaimetadata.so instead of linked meta objects - [PR#1901](https://github.
 Support update of SAI_TUNNEL_TERM_TABLE_ENTRY_ATTR_VR_ID - [PR#1855](https://github.com/opencomputeproject/SAI/pull/1855) <br>
 Refactor RPC frontend - [PR#1896](https://github.com/opencomputeproject/SAI/pull/1896) <br>
 Fix spelling - [PR#1895](https://github.com/opencomputeproject/SAI/pull/1895) <br>
-Add bulk-api for router interface (RIF) <br> object - [PR#1891](https://github.com/opencomputeproject/SAI/pull/1891) <br>
+Add bulk-api for router interface (RIF) object - [PR#1891](https://github.com/opencomputeproject/SAI/pull/1891) <br>
 Add warning message on bm directory being deprecated - [PR#1889](https://github.com/opencomputeproject/SAI/pull/1889) <br>
 Tunnel Term Attributes validation fixed for all MP2P and MP2MP attributes - [PR#1799](https://github.com/opencomputeproject/SAI/pull/1799) <br>
 Revert "Tunnel Term Attributes validation fixed for all MP2P and MP2MP attributes" - [PR#1890](https://github.com/opencomputeproject/SAI/pull/1890) <br>
