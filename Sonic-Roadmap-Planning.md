@@ -9,7 +9,6 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 |		     |				|				|[[Logrotate] Add logrotate feature HLD](https://github.com/sonic-net/SONiC/pull/1683)
 |		     |				|				|[Add HLD for FRR-SONiC Communication Channel Enhancements](https://github.com/sonic-net/SONiC/pull/1620) |
 |		     |				|				|[Adding the HLD for SONiC reset local users' passwords](https://github.com/sonic-net/SONiC/pull/1577) |
-|		     |				|				|[Banner HLD](https://github.com/sonic-net/SONiC/pull/1361) |
 |		     |				|				|[BBR and Overlay ECMP coexistence with dual ToR](https://github.com/sonic-net/SONiC/issues/1735) |
 |		     |				|				|[BGP Loading Optimization HLD](https://github.com/sonic-net/SONiC/pull/1521) |
 |		     |				|				|[BGP PIC HLD](https://github.com/sonic-net/SONiC/pull/1493) |
@@ -511,7 +510,6 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 |            |              |             	| SRv6 policy steering w/ FRR protocols integration - Deferred from 202205 release |
 |            |              |             	| SRv6 sBFD, DT46 - Deferred from 202205 release |
 | 			 |              |				| SRv6 VPN - Deferred from 202305 release | 
-| 			 |              |				| SSH global config - Deferred from 202305 release | 
 | 			 |              |				| Static Anycast Gateway HLD - Deferred from 202305 release | 
 |			 |				|				| Support PCEP (pathd daemon from FRR) and BFD protocols - Deferred from 202305 release | 
 |			 |				|				|[Switch Port Modes and VLAN CLI Enhancement](https://github.com/sonic-net/SONiC/blob/ab74bb25dc6afe6d39581c609bdbd0ce6f09f732/doc/L2_802.1q_Tunneling_Support_HLD/L2%20dot1q%20HLD.markdown) - Deferred from 202211 release |  
