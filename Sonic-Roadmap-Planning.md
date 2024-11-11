@@ -5,7 +5,7 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 | Release    | Release Date | SAI version   | Features Included                  |
 |------------|--------------|---------------|------------------------------------|
 |SONiC.202411| 11/30/2024   |  SAI1.15.0    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/18) |
-|		     |				|				|[HLD] bmp for monitoring SONiC BGP info](https://github.com/sonic-net/SONiC/pull/1621) |
+|		     |				|				|[[HLD] bmp for monitoring SONiC BGP info](https://github.com/sonic-net/SONiC/pull/1621) |
 |		     |				|				|[[Logrotate] Add logrotate feature HLD](https://github.com/sonic-net/SONiC/pull/1683)
 |		     |				|				|[Add HLD for FRR-SONiC Communication Channel Enhancements](https://github.com/sonic-net/SONiC/pull/1620) |
 |		     |				|				|[Adding the HLD for SONiC reset local users' passwords](https://github.com/sonic-net/SONiC/pull/1577) |
