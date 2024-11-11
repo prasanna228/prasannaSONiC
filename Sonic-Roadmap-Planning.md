@@ -4,6 +4,82 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 
 | Release    | Release Date | SAI version   | Features Included                  |
 |------------|--------------|---------------|------------------------------------|
+|SONiC.202411| 11/30/2024   |  SAI1.15.0    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/18) |
+|		     |				|				|[HLD] bmp for monitoring SONiC BGP info](https://github.com/sonic-net/SONiC/pull/1621) |
+|		     |				|				|[[Logrotate] Add logrotate feature HLD](https://github.com/sonic-net/SONiC/pull/1683)
+|		     |				|				|[Add HLD for FRR-SONiC Communication Channel Enhancements](https://github.com/sonic-net/SONiC/pull/1620) |
+|		     |				|				|[Adding the HLD for SONiC reset local users' passwords](https://github.com/sonic-net/SONiC/pull/1577) |
+|		     |				|				|[Banner HLD](https://github.com/sonic-net/SONiC/pull/1361) |
+|		     |				|				|[BBR and Overlay ECMP coexistence with dual ToR](https://github.com/sonic-net/SONiC/issues/1735) |
+|		     |				|				|[BGP Loading Optimization HLD](https://github.com/sonic-net/SONiC/pull/1521) |
+|		     |				|				|[BGP PIC HLD](https://github.com/sonic-net/SONiC/pull/1493) |
+|		     |				|				|[BGP route aggregation with BBR awareness](https://github.com/sonic-net/SONiC/issues/1731) |
+|		     |				|				|[Broadcom syncd bookworm upgrade](https://github.com/sonic-net/SONiC/issues/1815) |
+|		     |				|				|[DSCP inner marking with IP-in-IP](https://github.com/sonic-net/SONiC/issues/1734) |
+|		     |				|				|[Expand docker manifest capabilities to include network and ports configuration](https://github.com/sonic-net/SONiC/pull/1601) |
+|		     |				|				|[Extend sysmonitor functionality to wait for host daemons](https://github.com/sonic-net/SONiC/issues/1756) |
+|		     |				|				|[FEC Histogram](https://github.com/sonic-net/SONiC/issues/1736) |
+|		     |				|				|[Fpmsyncd Next Hop Table Enhancement HLD](https://github.com/sonic-net/SONiC/pull/1425) |
+|		     |				|				|[Graceful SAI failure handling w/o orchagent crash](https://github.com/sonic-net/SONiC/issues/1733) |
+|		     |				|				|[HLD for cli sessions feature](https://github.com/sonic-net/SONiC/pull/1367) |
+|		     |				|				|[HLD for ECN and WRED statistics support in SONiC](https://github.com/sonic-net/SONiC/pull/1273) |
+|		     |				|				|[HLD for Memory_Statistics](https://github.com/sonic-net/SONiC/pull/1760) |
+|		     |				|				|[IPM: IP Measurements](https://github.com/sonic-net/SONiC/issues/1715) |
+|		     |				|				|[IPMC dataplane](https://github.com/sonic-net/SONiC/issues/1728) |
+|		     |				|				|[Kdump Remote SSH Config Enhancements](https://github.com/sonic-net/SONiC/issues/1711) |
+|		     |				|				|[Merged EVPN VxLAN MH HLD from Cisco and BCM](https://github.com/sonic-net/SONiC/pull/1702) |
+|		     |				|				|[Mitigating DHCP Starvation Attacks](https://github.com/sonic-net/SONiC/issues/1575) | 
+|		     |				|				|[Multiple Spanning Tree Protocol (MSTP) Updated HLD](https://github.com/sonic-net/SONiC/issues/1775) |
+|		     |				|				|[Notification to SAI that fast-reboot is done](https://github.com/sonic-net/SONiC/issues/1755) |
+|		     |				|				|[Port Access Control Phase 1](https://github.com/sonic-net/SONiC/issues/1724) |
+|		     |				|				|[Power over Ethernet (PoE)](https://github.com/sonic-net/SONiC/issues/1539) |
+|		     |				|				|[Reset user password upon long press on reset button](https://github.com/sonic-net/SONiC/issues/1545) | 
+|		     |				|				|[Silicon config support for Broadcom yml file and property overwrite](https://github.com/sonic-net/SONiC/issues/1814) |
+|		     |				|				|[SONiC Security Auditing HLD](https://github.com/sonic-net/SONiC/pull/1713) |
+|		     |				|				|[SRv6 VPN HLD for 202305 release](https://github.com/sonic-net/SONiC/pull/1252) |
+|		     |				|				|[Support SSD cleanup](https://github.com/sonic-net/SONiC/issues/1529) |
+|		     |				|				|[UEFI key management in SONiC to perform secure boot key rotation, update, remove revoke etc](https://github.com/sonic-net/SONiC/issues/1401) |
+|		     |				|				|[upgrade FRR to version 10.0.1, upgrade libyang2 to 2.1.148.](https://github.com/sonic-net/sonic-buildimage/pull/20269) |
+|		     |				|				|[Upgrade to FRR 10.0.1](https://github.com/sonic-net/SONiC/issues/1565) |
+|		     |				|				|[VRRP](https://github.com/sonic-net/SONiC/issues/1726) |
+|		     |				|				|[Weighted Cost Multipathing for Chassis and PizzaBox devices](https://github.com/sonic-net/SONiC/issues/1737) |
+|SONiC.202405| 05/31/2024   |  SAI1.14.0    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/17) |
+|		     |				|				|[[LLDP][T2] Advertise Chassis Hostname when present.](https://github.com/sonic-net/sonic-buildimage/pull/19076)  |
+|		     |				|				|[[NTP] Fix config template to init default parameters](https://github.com/sonic-net/sonic-buildimage/pull/18736) | 
+|		     |				|				|[[SubnetDecap] Add subnet decap HLD](https://github.com/sonic-net/SONiC/pull/1657)   |
+|		     |				|				|[Add details of sff_mgr regarding deterministic bringup for SFF compliant modules](https://github.com/sonic-net/SONiC/pull/1334)  |
+|		     |				|				|[Add HLD for IPv4 port based DHCP server in SONiC](https://github.com/sonic-net/SONiC/pull/1282)  |
+|		     |				|				|[[Add LDAP HLD](https://github.com/sonic-net/SONiC/pull/1487)  |
+|		     |				|				|[Add SRv6 SID L3Adj](https://github.com/sonic-net/SONiC/pull/1472)      |
+|		     |				|				|[Base OS upgrade to Bookworm](https://github.com/sonic-net/sonic-buildimage/pull/17234)   |
+|		     |				|				|[Bookworm Upgrade LLDP, SNMP subagent, ICCPD, PDE, FRR](https://github.com/sonic-net/SONiC/issues/1677)      |
+|		     |				|				|[[CVL dynamic table field support]](https://github.com/sonic-net/SONiC/issues/1682)  |
+|		     |				|				|[CVL Infra Enhancement](https://github.com/sonic-net/SONiC/issues/1680)  |
+|		     |				|				|[CVL singleton table and multi-list table support](https://github.com/sonic-net/SONiC/issues/1681)       |
+|		     |				|				|[Decrease number of false positive triggers while using  PFC watchdog](https://github.com/sonic-net/SONiC/pull/1660) 
+|		     |				|				|[Extend CMIS host management debug capability](https://github.com/sonic-net/SONiC/pull/1476)  |
+|		     |				|				|[Extend CMIS host management to support warmboot and fastboot](https://github.com/sonic-net/SONiC/pull/1663)  |
+|		     |				|				|[Go Code format checker and formatter](https://github.com/sonic-net/SONiC/issues/1678)  |
+|		     |				|				|[High-level Design of Storage Monitoring Daemon](https://github.com/sonic-net/SONiC/pull/1481)    |
+|		     |				|				|[HLD: DHCPv4 - Specify dhcp relay's Gateway explicitly with Primary address.](https://github.com/sonic-net/SONiC/pull/1470)  |
+|		     |				|				|[NetScan over VLAN support](https://github.com/sonic-net/SONiC/pull/1657)   |
+|		     |				|				|[NextHop Group Table Enhancement](https://github.com/sonic-net/SONiC/pull/1636)  |
+|		     |				|				|[RESTCONF infra enhancement](https://github.com/sonic-net/SONiC/issues/1679)  |
+|		     |				|				|[SAI health monitor and dump generation](https://github.com/sonic-net/SONiC/pull/1533)  |
+|		     |				|				|[SONiC container upgrade to Bookworm (Debian 12)](https://github.com/sonic-net/SONiC/issues/1541)   |
+|		     |				|				|[SONiC Debian Upgrade Cadence process improvement](https://github.com/sonic-net/SONiC/issues/1632)  |
+|		     |				|				|[Support OpenSSL 3.0 SymCrypt provider and engine for bookworm](https://github.com/sonic-net/sonic-buildimage/pull/18088)  |
+|		     |				|				|[Test Plan for OSPF and BFD](https://github.com/sonic-net/SONiC/issues/1576)   |
+|		     |				|				|[Third party container management using the Sonic Application Framework](https://github.com/sonic-net/SONiC/pull/1286)  |
+|		     |				|				|[TLS1.3 Support](https://github.com/sonic-net/SONiC/issues/1531)  |
+|		     |				|				|[UMF Config Session Support](https://github.com/sonic-net/SONiC/pull/1518)  |
+|		     |				|				|[UMF infra enhancement](https://github.com/sonic-net/SONiC/pull/1287)  |
+|		     |				|				|[UMF: OpenConfig YANG support for Physical Interfaces](https://github.com/sonic-net/SONiC/pull/1628)  |
+|		     |				|				|[UMF subscription enhancement](https://github.com/sonic-net/SONiC/issues/1705)  |
+|		     |				|				|[UMF: Transformer Infrastructure](https://github.com/sonic-net/SONiC/pull/1287)	 |
+|		     |				|				|[Upgrade FRR to 8.5.4](https://github.com/sonic-net/sonic-buildimage/pull/18669)	 |
+|		     |				|				|[Upgrade SWSS/SyncD to debian 12](https://github.com/sonic-net/SONiC/pull/1670)  |
+|		     |				|				|[Weighted-Cost Multi-Path](https://github.com/sonic-net/SONiC/pull/1629)   |
 |SONiC.202311| 11/30/2023   |  SAI1.13.3    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/14) |
 |		     |				|				| [[DASH] ACL tags HLD](https://github.com/sonic-net/SONiC/blob/master/doc/dash/dash-acl-tags/dash-acl-tags.md)  |
 |		  	 |				|				| AMD-Pensando ELBA SOC support |
