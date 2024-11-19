@@ -1,6 +1,6 @@
 # SONiC 202411 Release Notes
 
-This document captures the new features added and enhancements done on existing features/sub-features for the SONiC [202405](https://github.com/orgs/sonic-net/projects/18/) release.
+This document captures the new features added and enhancements done on existing features/sub-features for the SONiC [202411](https://github.com/orgs/sonic-net/projects/18/) release.
 
 
 
@@ -24,7 +24,7 @@ Image  : https://sonic-build.azurewebsites.net/ui/sonic/pipelines  (Example - Im
 |Feature                    | Version  |
 | ------------------------- | --------------- |
 | Linux kernel version      | linux_6.1.38-4  |
-| SAI   version             | SAI v1.14.0    |
+| SAI   version             | SAI v1.15.0    |
 | FRR                       | 8.5.4   |
 | LLDPD                     | 1.0.16-1+deb12u1 |
 | TeamD                     | 1.31-1    |
@@ -67,7 +67,7 @@ Note : The HLD PR's have been updated in ""HLD PR / PR tracking"" coloumn. The c
 
 # SAI APIs
 
-Please find the list of API's classified along the newly added SAI features. For further details on SAI API please refer [SAI_1.14.0 Release Notes](https://github.com/opencomputeproject/SAI/blob/master/doc/SAI_1.14.0_ReleaseNotes.md)
+Please find the list of API's classified along the newly added SAI features. For further details on SAI API please refer [SAI_1.15.0 Release Notes](https://github.com/opencomputeproject/SAI/blob/master/doc/SAI_1.15.0_ReleaseNotes.md)
 
 
 # Contributors 
