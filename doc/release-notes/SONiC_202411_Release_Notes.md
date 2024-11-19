@@ -56,7 +56,8 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 | ------ | ------- | -----|-----|
 | Broadcom syncd bookworm upgrade | This feature implements the migration of platform broadcom docker syncd from bullseye to bookworm | 
 | Port Access Control Phase 1 | This feature provides a means of preventing unauthorized access by users to the services offered by a Network. | [1315](https://github.com/sonic-net/SONiC/pull/1315) | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) |
-
+| HLD for cli sessions feature | This feature describes the requirements, architecture and general flow details of serial connection config in SONIC OS based switches. | [1367](https://github.com/sonic-net/SONiC/pull/1367) | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) |
+| Notification to SAI that fast-reboot is done | This feature enables the notification for SAI that fastboot is done by setting SAI_SWITCH_ATTR_FAST_API_ENABLE to false when fastboot is done | [1396](https://github.com/sonic-net/sonic-sairedis/pull/1396) | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) |
 
 Note : The HLD PR's have been updated in ""HLD PR / PR tracking"" coloumn. The code PR's part of the features are mentioned within the HLD PRs. The code PRs not mentioned in HLD PRs are updated in "HLD PR / PR tracking" coloumn along with HLD PRs.
 
