@@ -23,9 +23,9 @@ Image  : https://sonic-build.azurewebsites.net/ui/sonic/pipelines  (Example - Im
 
 |Feature                    | Version  |
 | ------------------------- | --------------- |
-| Linux kernel version      | linux_6.1.38-4  |
-| SAI   version             | SAI v1.15.0    |
-| FRR                       | 8.5.4   |
+| Linux kernel version      | linux_6.1.94-1  |
+| SAI   version             | SAI v1.15.2    |
+| FRR                       | 10.0.1   |
 | LLDPD                     | 1.0.16-1+deb12u1 |
 | TeamD                     | 1.31-1    |
 | SNMPD                     | 5.9.3+dfsg-2 |
@@ -36,18 +36,18 @@ Image  : https://sonic-build.azurewebsites.net/ui/sonic/pipelines  (Example - Im
 | isc-dhcp                  | 4.4.3-P1-2  |
 | sonic-telemetry           | 1.1    |
 | redis-server/ redis-tools | 7.0.15-1~deb12u1   |
-| Debian version			| Migrated to Bookworm (Debian version 12)	|
+| Debian version			| Continuous to use Bookworm (Debian version 12)	|
 
 Note : The kernel version is migrated to the version that is mentioned in the first row in the above 'Dependency Version' table.
 
 
 # Security Updates
 
-1. Kernel upgraded from 5.10.179-3 to 6.1.38-4 for SONiC release.<br>
-   Change log: https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.38
+1. Kernel upgraded from 6.1.38-4 to 6.1.94-1 for SONiC release.<br>
+   Change log: https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.94
 
-2. Docker is with 24.0.2-debian-stretch  <br>
-   Change log: https://docs.docker.com/engine/release-notes/24.0/#2402
+2. Docker is with 27.4.0-debian-stretch  <br>
+   Change log: https://docs.docker.com/engine/release-notes/27.0/#2740
 
 
 # Feature List
@@ -75,12 +75,12 @@ Note : The HLD PR's have been updated in ""HLD PR / PR tracking"" coloumn. The c
 
 # SAI APIs
 
-Please find the list of API's classified along the newly added SAI features. For further details on SAI API please refer [SAI_1.15.0 Release Notes](https://github.com/opencomputeproject/SAI/blob/master/doc/SAI_1.15.0_ReleaseNotes.md)
+Please find the list of API's classified along the newly added SAI features. For further details on SAI API please refer [SAI_1.15.2 Release Notes](https://github.com/opencomputeproject/SAI/blob/master/doc/SAI_1.15.2_ReleaseNotes.md)
 
 
 # Contributors 
 
-SONiC community would like to thank all the contributors from various companies and the individuals who has contributed for the release. Special thanks to the major contributors - Alibaba, Arista, AvizNetworks, Broadcom, Capgemini, Centec, Cisco, Dell, eBay, Edge-Core, Google, InMon, Inspur, Intel, Marvell, Micas Networks, Microsoft, NTT, Nvidia, Orange, PLVision & xFlow Research Inc.   
+SONiC community would like to thank all the contributors from various companies and the individuals who has contributed for the release. Special thanks to the major contributors - Alibaba, AvizNetworks, Broadcom, Cisco, Dell, Micas Networks, Microsoft, NTT, Nvidia & xFlow Research Inc.   
 
 <br> 
 
