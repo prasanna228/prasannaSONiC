@@ -24,7 +24,7 @@ Image  : https://sonic-build.azurewebsites.net/ui/sonic/pipelines  (Example - Im
 |Feature                    | Version  |
 | ------------------------- | --------------- |
 | Linux kernel version      | linux_6.1.94-1  |
-| SAI   version             | SAI v1.15.2    |
+| SAI   version             | SAI v1.15.1    |
 | FRR                       | 10.0.1   |
 | LLDPD                     | 1.0.16-1+deb12u1 |
 | TeamD                     | 1.31-1    |
@@ -61,21 +61,17 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 | ***Broadcom syncd bookworm upgrade*** | This feature implements the migration of platform broadcom docker syncd from bullseye to bookworm | [19712](https://github.com/sonic-net/sonic-buildimage/pull/19712) | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) | 
 | ***HLD for cli sessions feature*** | This feature describes the requirements, architecture and general flow details of serial connection config in SONIC OS based switches. | [1367](https://github.com/sonic-net/SONiC/pull/1367) | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) |
 | ***Mac Authentication Bypass*** | This feature implements MAB protocol related common header files for generic files and its changes. | [1854](https://github.com/sonic-net/SONiC/issues/1854)   | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) | 
-| ***Notification to SAI that fast-reboot is done*** | This feature enables the notification for SAI that fastboot is done by setting SAI_SWITCH_ATTR_FAST_API_ENABLE to false when fastboot is done | [1396](https://github.com/sonic-net/sonic-sairedis/pull/1396) | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) |
 | ***Port Access Control Phase 1*** | This feature provides a means of preventing unauthorized access by users to the services offered by a Network. | [1315](https://github.com/sonic-net/SONiC/pull/1315) | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) |
-| ***PVST Feature commit*** | This feature is to fix the compilation issues    | [38](https://github.com/sonic-net/sonic-stp/pull/38)   | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) | 
-| ***PVST Protocol Support Phase 1*** | This feature implements the PVST (Per VLAN spanning tree) in SONiC.   | [386](https://github.com/sonic-net/SONiC/pull/386)     | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) | 
 | ***Silicon config support for Broadcom yml file and property overwrite*** | This feature gives the details of Per-switching silicon Common config for Broadcom Supported Platforms implementation.   | [1744](https://github.com/sonic-net/SONiC/pull/1744) | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) | 
-| ***Update calculation for dynamic buffer management*** | This feature fixes a bug in lossless headroom calculation regarding the small packet percentage which should be calculated in a size-based approach instead of packet-based and also adjust the Mellanox-specific lossless headroom calculation algorithm.    | [3235](https://github.com/sonic-net/sonic-swss/pull/3235)   | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) | 
 | ***Upgrade FRR to version 10.0.1, upgrade libyang2 to 2.1.148.*** | This implements the version update for FRR to version 10.0.1 and libyang2 to 2.1.148.  | [20269](https://github.com/sonic-net/sonic-buildimage/pull/20269)     | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) | 
 | ***Upgrade to FRR 10.0.1*** | This implements the version update for FRR to version 10.0.1   | [1565](https://github.com/sonic-net/SONiC/issues/1565)     | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) | 
-| ***VRRP Phase 1*** | This feature implements the frr-vrrpd adaptation to SONiC.    | [1446](https://github.com/sonic-net/SONiC/pull/1446) | [Alpha](https://github.com/sonic-net/SONiC/blob/master/doc/SONiC%20feature%20quality%20definition.md) | 
+
 
 Note : The HLD PR's have been updated in ""HLD PR / PR tracking"" coloumn. The code PR's part of the features are mentioned within the HLD PRs. The code PRs not mentioned in HLD PRs are updated in "HLD PR / PR tracking" coloumn along with HLD PRs.
 
 # SAI APIs
 
-Please find the list of API's classified along the newly added SAI features. For further details on SAI API please refer [SAI_1.15.2 Release Notes](https://github.com/opencomputeproject/SAI/blob/master/doc/SAI_1.15.2_ReleaseNotes.md)
+Please find the list of API's classified along the newly added SAI features. For further details on SAI API please refer [SAI_1.15.1 Release Notes](https://github.com/opencomputeproject/SAI/blob/master/doc/SAI_1.15.1_ReleaseNotes.md)
 
 
 # Contributors 
