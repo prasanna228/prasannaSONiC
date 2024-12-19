@@ -13,7 +13,7 @@ The following characters have special meanings in Markdown and must be escaped u
 - \* (asterisk)
 - \_ (underscore)
 - \{ \} (curly braces)
-- \[ \] (square brackets)
+- \[  \] (square brackets)
 - \( \) (parentheses)
 - \# (hash mark)
 - \+ (plus sign)
