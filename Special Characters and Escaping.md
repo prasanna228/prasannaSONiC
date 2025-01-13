@@ -8,9 +8,6 @@ This document provides an overview of special characters in Markdown files, expl
 
 The following characters have special meanings in Markdown and must be escaped using a backslash (`\`) if you want them to appear as regular text:
 
-
-Certainly! Here’s an elaborated version of the sentence:
-
 In Markdown, certain characters are reserved for specific formatting purposes and have special meanings. These characters are used to create headers, lists, links, emphasis, and other elements of the Markdown syntax. If you want to display these characters as part of the content (rather than triggering their formatting function), you must escape them by preceding them with a backslash (\). This tells the Markdown parser to treat these characters as regular text, rather than interpreting them as formatting instructions.
 
 - `\\` (backslash itself)
