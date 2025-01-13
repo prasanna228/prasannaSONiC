@@ -1,6 +1,8 @@
 # Markdown Special Characters and Escaping
 
-This content provides a concise overview of Markdown’s special characters and the method for escaping them using a backslash.
+Markdown files are plain text, but certain characters have special meaning within the Markdown syntax. To avoid workflow failures or page deployment errors, it's crucial to handle these characters appropriately. Due to the presence of special characters in the committed Markdown (.md) files, the workflow is failing, leading to deployment errors during the page deployment process. To resolve this, it is essential to handle these special characters properly within the Markdown documents. 
+
+This document provides an overview of special characters in Markdown files, explaining how to escape them using a backslash and how to handle them to ensure smooth workflow execution and successful deployment.
 
 In Markdown, certain characters have special meanings and need to be escaped with a backslash (`\`) to be treated as regular text. This document outlines the characters that require escaping and provides examples.
 
