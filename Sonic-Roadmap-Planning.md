@@ -4,7 +4,7 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 
 | Release    | Release Date | SAI version   | Features Included                  |
 |------------|--------------|---------------|------------------------------------|
-|SONiC.202505| 05/30/2025   |  			    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/25) |
+|SONiC.202505| 05/31/2025   |  			    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/25) |
 | 			 |              |               |[Add HLD for Orchagent error handling improvements](https://github.com/sonic-net/SONiC/pull/1698) | 
 | 			 |              |               |[Add Srv6 static config HLD](https://github.com/sonic-net/SONiC/pull/1860) |
 | 			 |              |               |[Custom ACL Based Metering](https://github.com/sonic-net/SONiC/pull/1889) | 
