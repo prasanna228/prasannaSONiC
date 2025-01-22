@@ -4,44 +4,20 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 
 | Release    | Release Date | SAI version   | Features Included                  |
 |------------|--------------|---------------|------------------------------------|
-|SONiC.202411| 11/30/2024   |  SAI1.15.0    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/18) |
+|SONiC.202411| 11/30/2024   |  SAI1.15.1    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/18) |
 |		     |				|				|[[HLD] bmp for monitoring SONiC BGP info](https://github.com/sonic-net/SONiC/pull/1621) |
-|		     |				|				|[[Logrotate] Add logrotate feature HLD](https://github.com/sonic-net/SONiC/pull/1683)
 |		     |				|				|[Add HLD for FRR-SONiC Communication Channel Enhancements](https://github.com/sonic-net/SONiC/pull/1620) |
-|		     |				|				|[Adding the HLD for SONiC reset local users' passwords](https://github.com/sonic-net/SONiC/pull/1577) |
+|			 |				|				|[Authentication Manager for PAC](https://github.com/sonic-net/SONiC/issues/1853)
+|  			 |				|				|[Banner HLD](https://github.com/sonic-net/SONiC/blob/master/doc/banner/banner_hld.md) |
 |		     |				|				|[BBR and Overlay ECMP coexistence with dual ToR](https://github.com/sonic-net/SONiC/issues/1735) |
-|		     |				|				|[BGP Loading Optimization HLD](https://github.com/sonic-net/SONiC/pull/1521) |
-|		     |				|				|[BGP PIC HLD](https://github.com/sonic-net/SONiC/pull/1493) |
-|		     |				|				|[BGP route aggregation with BBR awareness](https://github.com/sonic-net/SONiC/issues/1731) |
 |		     |				|				|[Broadcom syncd bookworm upgrade](https://github.com/sonic-net/SONiC/issues/1815) |
-|		     |				|				|[DSCP inner marking with IP-in-IP](https://github.com/sonic-net/SONiC/issues/1734) |
-|		     |				|				|[Expand docker manifest capabilities to include network and ports configuration](https://github.com/sonic-net/SONiC/pull/1601) |
-|		     |				|				|[Extend sysmonitor functionality to wait for host daemons](https://github.com/sonic-net/SONiC/issues/1756) |
-|		     |				|				|[FEC Histogram](https://github.com/sonic-net/SONiC/issues/1736) |
-|		     |				|				|[Fpmsyncd Next Hop Table Enhancement HLD](https://github.com/sonic-net/SONiC/pull/1425) |
-|		     |				|				|[Graceful SAI failure handling w/o orchagent crash](https://github.com/sonic-net/SONiC/issues/1733) |
+|			 |				|				|[Everflow DSCP marking using Metadata](https://github.com/sonic-net/SONiC/pull/1743)
 |		     |				|				|[HLD for cli sessions feature](https://github.com/sonic-net/SONiC/pull/1367) |
-|		     |				|				|[HLD for ECN and WRED statistics support in SONiC](https://github.com/sonic-net/SONiC/pull/1273) |
-|		     |				|				|[HLD for Memory_Statistics](https://github.com/sonic-net/SONiC/pull/1760) |
-|		     |				|				|[IPM: IP Measurements](https://github.com/sonic-net/SONiC/issues/1715) |
-|		     |				|				|[IPMC dataplane](https://github.com/sonic-net/SONiC/issues/1728) |
-|		     |				|				|[Kdump Remote SSH Config Enhancements](https://github.com/sonic-net/SONiC/issues/1711) |
-|		     |				|				|[Merged EVPN VxLAN MH HLD from Cisco and BCM](https://github.com/sonic-net/SONiC/pull/1702) |
-|		     |				|				|[Mitigating DHCP Starvation Attacks](https://github.com/sonic-net/SONiC/issues/1575) | 
-|		     |				|				|[Multiple Spanning Tree Protocol (MSTP) Updated HLD](https://github.com/sonic-net/SONiC/issues/1775) |
-|		     |				|				|[Notification to SAI that fast-reboot is done](https://github.com/sonic-net/SONiC/issues/1755) |
+|			 |				|				|[Mac Authentication Bypass](https://github.com/sonic-net/SONiC/issues/1854)
 |		     |				|				|[Port Access Control Phase 1](https://github.com/sonic-net/SONiC/issues/1724) |
-|		     |				|				|[Power over Ethernet (PoE)](https://github.com/sonic-net/SONiC/issues/1539) |
-|		     |				|				|[Reset user password upon long press on reset button](https://github.com/sonic-net/SONiC/issues/1545) | 
 |		     |				|				|[Silicon config support for Broadcom yml file and property overwrite](https://github.com/sonic-net/SONiC/issues/1814) |
-|		     |				|				|[SONiC Security Auditing HLD](https://github.com/sonic-net/SONiC/pull/1713) |
-|		     |				|				|[SRv6 VPN HLD for 202305 release](https://github.com/sonic-net/SONiC/pull/1252) |
-|		     |				|				|[Support SSD cleanup](https://github.com/sonic-net/SONiC/issues/1529) |
-|		     |				|				|[UEFI key management in SONiC to perform secure boot key rotation, update, remove revoke etc](https://github.com/sonic-net/SONiC/issues/1401) |
 |		     |				|				|[upgrade FRR to version 10.0.1, upgrade libyang2 to 2.1.148.](https://github.com/sonic-net/sonic-buildimage/pull/20269) |
 |		     |				|				|[Upgrade to FRR 10.0.1](https://github.com/sonic-net/SONiC/issues/1565) |
-|		     |				|				|[VRRP](https://github.com/sonic-net/SONiC/issues/1726) |
-|		     |				|				|[Weighted Cost Multipathing for Chassis and PizzaBox devices](https://github.com/sonic-net/SONiC/issues/1737) |
 |SONiC.202405| 05/31/2024   |  SAI1.14.0    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/17) |
 |		     |				|				|[[LLDP][T2] Advertise Chassis Hostname when present.](https://github.com/sonic-net/sonic-buildimage/pull/19076)  |
 |		     |				|				|[[NTP] Fix config template to init default parameters](https://github.com/sonic-net/sonic-buildimage/pull/18736) | 
@@ -83,7 +59,6 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 |		     |				|				| [[DASH] ACL tags HLD](https://github.com/sonic-net/SONiC/blob/master/doc/dash/dash-acl-tags/dash-acl-tags.md)  |
 |		  	 |				|				| AMD-Pensando ELBA SOC support |
 |			 |				|				| [Auto FEC](https://github.com/sonic-net/SONiC/blob/master/doc/port_auto_neg/auto-fec.md) | 
-|  			 |				|				| [Banner HLD](https://github.com/sonic-net/SONiC/blob/master/doc/banner/banner_hld.md) |
 |			 |				|				| FRR version 8.5.1 Upgrade | 
 |			 |				|				| Build improvements changes |
 |			 |				|				| [CMIS host management - Port signal integrity per speed](https://github.com/sonic-net/SONiC/blob/master/doc/port-si/Port_SI_Per_Speed.md) | 
@@ -386,6 +361,8 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 | 			 |              |               | ACL enhancements: Policing, DHCP/PCP remark, L2 |
 | 			 |              |               | ACL UDF |
 | 			 |              |				| ACMS and Restful API for Arista 7060 - Deferred from 202205 release |
+|		     |				|				|[[Logrotate] Add logrotate feature HLD](https://github.com/sonic-net/SONiC/pull/1683) |
+|		     |				|				|[Adding the HLD for SONiC reset local users' passwords](https://github.com/sonic-net/SONiC/pull/1577) |
 |			 |				|				| Add SNMP view to filter MIB browsing - Deferred from 202305 release | 
 | 			 |              |				| Add new YANG models for IS-IS/SR/MPLS configs and telemetry - Deferred from 202305 release | 
 | 			 |              |				| Add PIT HLD document , this PR replace previous [PR#1014](https://github.com/sonic-net/SONiC/pull/1014) - Deferred from 202305 release | 
@@ -399,6 +376,9 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 |			 |				|				| BGP config incremental update - Deferred from 202205 release	| 
 |		     |			    | 				| [BGP ExtComm](https://tools.ietf.org/rfc/rfc4360.txt) |
 |		     |			    | 				| [BGP Link bandwidth ExtComm](https://tools.ietf.org/pdf/draft-ietf-idr-link-bandwidth-07.pdf) |
+|		     |				|				|[BGP Loading Optimization HLD](https://github.com/sonic-net/SONiC/pull/1521) |
+|		     |				|				|[BGP PIC HLD](https://github.com/sonic-net/SONiC/pull/1493) |
+|		     |				|				|[BGP route aggregation with BBR awareness](https://github.com/sonic-net/SONiC/issues/1731) |
 |			 |				|				| BGP Unnumbered config_db knobs - Deferred from 202211 release |
 |            |              |               | [BFD SW 100ms interval from FRR](https://github.com/Azure/SONiC/blob/master/doc/bfd/BFD_Enhancement_HLD.md)| 
 |			 |				|				| [Chassis infrastructure, T2 topologies and sample Testcases converted](https://github.com/Azure/sonic-mgmt/blob/master/ansible/library/multi-asic_aware_module_requirements.md) |
@@ -416,6 +396,7 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 |			 |				|				| DHCPv4 refactoring - Deferred from 202211 release |
 | 			 |              |				| Docker image on Bulleyes - Deferred from 202205 release |
 | 			 |              |               | DPB Reconcile |
+|		     |				|				|[DSCP inner marking with IP-in-IP](https://github.com/sonic-net/SONiC/issues/1734) |
 | 			 |              |               | Dynamic CoPP reconcile | 
 |			 |				|				| Dynamic Load Balancing (DLB) - Deferred from 202211 release | 
 |			 |				|				| ECMP and LAG hashing and IP fields - Deferred from 202211 release |
@@ -423,24 +404,34 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 | 			 |              |               | Enabling IS-IS in the dataplane |
 |            |              |               | Extending Entphysicaltable MIB table |
 |            |              |               | Extend FW debug info in sysdump |
+|		     |				|				|[Expand docker manifest capabilities to include network and ports configuration](https://github.com/sonic-net/SONiC/pull/1601) |
+|		     |				|				|[Extend sysmonitor functionality to wait for host daemons](https://github.com/sonic-net/SONiC/issues/1756) |
 |			 |				|				| Extended TeamD expire timer - Deferred from 202211 release | 
 | 			 |              |               | [Event-mgmt Infra](https://github.com/Azure/SONiC/pull/761) - Deferred from 202205 release |
 | 			 |              |               | [Everflow Support on VOQ Chassis](https://github.com/Azure/SONiC/blob/9c08b2f3f77230017c7035ceaf880746cb590d49/doc/voq/everflow.md) |
 | 			 |              |				| EVPN-MH Phase #1 - Deferred from 202205 release | 
 | 			 |              |               | [Fabric Port support for SONiC](https://github.com/Azure/SONiC/blob/2e1f699a3ba1dbf88abeecb192f6bb5e390b8b8a/doc/chassis/fabric.md) |
+|		     |				|				|[FEC Histogram](https://github.com/sonic-net/SONiC/issues/1736) |
 |            |              |               | Flow-based Services (incl. packet DSCP remark) |
 |			 |				|				| Firmware upgrade infra - Deferred from 202211 release | 
+|		     |				|				|[Fpmsyncd Next Hop Table Enhancement HLD](https://github.com/sonic-net/SONiC/pull/1425) |
 | 			 |              |				| Further extensions and uses of application extension framework | 
 | 			 |              |               | Gearbox part 2 |
 | 			 |              |               | Generic counters (Flow counters) |
 | 			 |              |				| Generic Hash - ECMP and LAG hashing and IP fields - Deferred from 202305 release |
 | 			 |              |				| Global setting to allow IPv6 link-local neighbours to always be programmed | 
 | 			 |              |				| gNMI: Save-On-Set - Deferred from 202305 release | 
+|		     |				|				|[Graceful SAI failure handling w/o orchagent crash](https://github.com/sonic-net/SONiC/issues/1733) |
 | 			 |              |				| HLD for changing teamd expiry timer - Deferred from 202305 release | 
+|		     |				|				|[HLD for ECN and WRED statistics support in SONiC](https://github.com/sonic-net/SONiC/pull/1273) |
+|		     |				|				|[HLD for Memory_Statistics](https://github.com/sonic-net/SONiC/pull/1760) |
 | 			 |              |				| IEEE 802.1s – Multiple Spanning Tree Support - Deferred from 202305 release |
 | 			 |              |               | [Inband port support for Chassis](https://github.com/Azure/SONiC/pull/639) |
+|		     |				|				|[IPM: IP Measurements](https://github.com/sonic-net/SONiC/issues/1715) |
+|		     |				|				|[IPMC dataplane](https://github.com/sonic-net/SONiC/issues/1728) |
 |			 |				|				| IPSec on vSwitch - Deferred from 202211 release |
 |			 |				|				| IS-IS and OSPF routing support - Deferred from 202305 release |
+|		     |				|				|[Kdump Remote SSH Config Enhancements](https://github.com/sonic-net/SONiC/issues/1711) |
 | 			 |              |               | [Kernel programming performance enhancement](https://github.com/Azure/SONiC/pull/493) |
 | 			 |              |               | [Klish CLI for show-tech support](https://github.com/Azure/SONiC/blob/d0986fb74c0210bb4661ede3674ca2a7eb367432/doc/mgmt/SONiC%20Management%20Framework%20Show%20Techsupport%20HLD.md)  |
 | 			 |              |               | Kubernetes enhancements |
@@ -454,12 +445,16 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 | 			 |              |				| MacSec  fallback key  support - Deferred from 202305 release |
 |            |              |               | [Management Framework RBAC](https://github.com/Azure/SONiC/blob/48fab9db4f090c5beaea5f7a8fdcb9474d23a4e9/doc/aaa/SONiC%20RBAC.md) | 
 |            |              |               | [Media Enhancements<br>(Media Information & Settings)](https://github.com/Azure/SONiC/blob/a6e9636552149829e39a82705d1ad2b48a17b3f0/doc/media-info-enhancements/media-info.md) | 
+|		     |				|				|[Merged EVPN VxLAN MH HLD from Cisco and BCM](https://github.com/sonic-net/SONiC/pull/1702) |
+|		     |				|				|[Mitigating DHCP Starvation Attacks](https://github.com/sonic-net/SONiC/issues/1575) | 
 | 			 |              |               | Mgmt FW Phase 3 |
 | 			 |              |				| MPLS scalability enhancement in SAI and SWSS | 
 | 			 |              |               | MultiDB reconcile |
+|		     |				|				|[Multiple Spanning Tree Protocol (MSTP) Updated HLD](https://github.com/sonic-net/SONiC/issues/1775) |
 |			 |				|				| MMU incremental config update - Deferred from 202211 release|
 |			 |				|				| Neighbor Enhancement - Nbrmgrd ARP refresh for router port - Deferred from 202211 release |  
 | 			 |              |				| Neigh refresh - Deferred from 202305 release |
+|		     |				|				|[Notification to SAI that fast-reboot is done](https://github.com/sonic-net/SONiC/issues/1755) |
 | 			 |              |               | [NVGRE/GRE](https://github.com/Azure/SONiC/pull/869) | 
 |			 |				|				| Operator security profile - Deferred from 202305 release |
 | 			 |              |				| P4 Runtime State Cache - Deferred from 202305 release | 
@@ -475,9 +470,11 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 | 			 |              |				| Port Init Profile (Port Bulk) - Deferred from 202305 release | 
 |			 |				|				| Port-security - Deferred from 202211 release | 
 |			 |				|				| [Port bulk support](https://github.com/sonic-net/SONiC/blob/master/doc/port-profile-init/port-profile-init-design.md) - Deferred from 202211 release | 
+|		     |				|				|[Power over Ethernet (PoE)](https://github.com/sonic-net/SONiC/issues/1539) |
 |			 |				|				| Python 3.0 upgrade for testbed - Deferred from 202305 release |  
 |			 |				|				| Qumram-MX support - Deferred from 202305 release | 
 |			 |				|				| Reproducible SONiC web server population script <br> [HLD](https://github.com/orenreiss/SONiC/blob/7ed5fe4ac08c70fc2dbfd770264f6601f4be9732/doc/sonic-build-system/web_file_server_population_script.md) - Deferred from 202211 release | 
+|		     |				|				|[Reset user password upon long press on reset button](https://github.com/sonic-net/SONiC/issues/1545) | 
 | 			 |              |               | [Routing/BGP for Chassis](https://github.com/Azure/SONiC/blob/35d6f8d1a88a8f8b08237d6ec9f719e9c06a6758/doc/voq/bgp_voq_chassis.md)
 | 			 |              |               | Routed sub-interface reconcile | 
 | 			 |              |               | [RPVST+](https://github.com/Azure/SONiC/pull/499) |
@@ -496,6 +493,7 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 | 			 |              |               | SONiC IPSEC support |
 | 			 |              |               | SONiC NAT Scaling |
 | 			 |              |				| SONiC Port Access Control - Deferred from 202305 release | 
+|		     |				|				|[SONiC Security Auditing HLD](https://github.com/sonic-net/SONiC/pull/1713) |
 | 			 |              |				| SONiC Static Port Channel Support - Deferred from 202305 release | 
 |            |              |             	| SONiC with P4 DPDK (PNA architecture) – Basic SoftSwitch with DPDK - Deferred from 202205 release | 
 | 			 |              |               | 100% SONiC YANG model | 
@@ -510,8 +508,10 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 |            |              |             	| SRv6 policy steering w/ FRR protocols integration - Deferred from 202205 release |
 |            |              |             	| SRv6 sBFD, DT46 - Deferred from 202205 release |
 | 			 |              |				| SRv6 VPN - Deferred from 202305 release | 
+|		     |				|				|[SRv6 VPN HLD for 202305 release](https://github.com/sonic-net/SONiC/pull/1252) |
 | 			 |              |				| Static Anycast Gateway HLD - Deferred from 202305 release | 
-|			 |				|				| Support PCEP (pathd daemon from FRR) and BFD protocols - Deferred from 202305 release | 
+|			 |				|				| [Support PCEP](pathd daemon from FRR) and BFD protocols - Deferred from 202305 release | 
+|		     |				|				|[Support SSD cleanup](https://github.com/sonic-net/SONiC/issues/1529) |
 |			 |				|				|[Switch Port Modes and VLAN CLI Enhancement](https://github.com/sonic-net/SONiC/blob/ab74bb25dc6afe6d39581c609bdbd0ce6f09f732/doc/L2_802.1q_Tunneling_Support_HLD/L2%20dot1q%20HLD.markdown) - Deferred from 202211 release |  
 | 			 |              |				| SWSS App State DB and Redis performance - Deferred from 202305 release | 
 | 			 |              |               | [System Ready Enhancements](https://github.com/Azure/SONiC/pull/875/files) |
@@ -528,17 +528,19 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 | 			 |              |				| Third Party Container Management - Deferred from 202305 release | 
 | 			 |              |               | [Thresholds (statistics)](https://github.com/Azure/SONiC/blob/master/doc/threshold/SONiC%20Threshold%20feature%20spec.md) |
 |			 |				|				| Traffic Management - Deferred from 202305 release | 
-|			 |				|				| vlan management improvement - Deferred from 202305 release | 
-| 			 |              |				| VLAN Stacking - Deferred from 202205 release | 
-|            |              |               | VoQ Chassis Support in SONiC |
-| 			 |              |               | VNET ping tool to debug VNET configuration |
-| 			 |              |				| Vxlan enhancement - Deferred from 202205 release | 
+|		     |				|				|[UEFI key management in SONiC to perform secure boot key rotation, update, remove revoke etc](https://github.com/sonic-net/SONiC/issues/1401) |
 | 			 |              |               | UI Content (UMF client) | 
 | 			 |              |				| UMF DB Access Layer Enhancement - Deferred from 202305 release | 
 | 			 |              |				| UMF Translib API Enhancement - Deferred from 202305 release | 
 | 			 |              |				| Uploading logs to remote syslog server - Deferred from 202305 release | 
 | 			 |              |				| User Management (RBAC) - Deferred from 202305 release | 
 |			 |				|				| UMF Management Infra Enhancement - Deferred from 202305 release | 
+|			 |				|				| vlan management improvement - Deferred from 202305 release | 
+| 			 |              |				| VLAN Stacking - Deferred from 202205 release | 
+|            |              |               | VoQ Chassis Support in SONiC |
+| 			 |              |               | VNET ping tool to debug VNET configuration |
+| 			 |              |				| Vxlan enhancement - Deferred from 202205 release | 
+|		     |				|				|[VRRP](https://github.com/sonic-net/SONiC/issues/1726) |
 |			 |				|				| YANG model enhancement - Deferred from 202305 release | 
 
 **NOTE**
