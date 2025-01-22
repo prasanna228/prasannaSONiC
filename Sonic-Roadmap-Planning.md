@@ -4,6 +4,38 @@ Pull requests for features that are not in the roadmap may not be accepted into 
 
 | Release    | Release Date | SAI version   | Features Included                  |
 |------------|--------------|---------------|------------------------------------|
+|SONiC.202505| 05/30/2025   |  			    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/25) |
+| 			 |              |               |[Add HLD for Orchagent error handling improvements](https://github.com/sonic-net/SONiC/pull/1698) | 
+| 			 |              |               |[Add Srv6 static config HLD](https://github.com/sonic-net/SONiC/pull/1860) |
+| 			 |              |               |[Custom ACL Based Metering](https://github.com/sonic-net/SONiC/pull/1889) | 
+| 			 |              |               |[DHCP DOS Mitigation HLD in SONiC](https://github.com/sonic-net/SONiC/pull/1651) | 
+| 			 |              |               |[Full control of the Netdev’s Admin and Oper status](https://github.com/sonic-net/SONiC/issues/1890) | 
+| 			 |              |               |[HLD for Memory_Statistics](https://github.com/sonic-net/SONiC/pull/1760) | 
+| 			 |              |               |[Implementation for ImageService.List](https://github.com/sonic-net/sonic-host-services/pull/206) | 
+| 			 |              |               |[Individual DPU upgrade in SmartSwitch](https://github.com/sonic-net/SONiC/issues/1880) |
+| 			 |              |               |[IP Multicast HLD](https://github.com/sonic-net/SONiC/pull/1808) | 
+| 			 |              |               |[IPv6 VTEP for EVPN-VXLAN](https://github.com/sonic-net/SONiC/issues/1492) | 
+| 			 |              |               |[Kdump_Remote_SSH_Support](https://github.com/sonic-net/SONiC/pull/1714) | 
+| 			 |              |               |[Link flap count and last flap time](https://github.com/sonic-net/SONiC/issues/1883) | 
+| 			 |              |               |[Local Adaptive Routing](https://github.com/sonic-net/SONiC/issues/1868) | 
+| 			 |              |               |[Local fault and remote fault](https://github.com/sonic-net/SONiC/issues/1882) | 
+| 			 |              |               |[Make the counter polling interval accurate by setting bulk counter poll chunk size per group or per counter](https://github.com/sonic-net/SONiC/pull/1864) |
+| 			 |              |               |[Memory Statistics Enhancement](https://github.com/sonic-net/SONiC/issues/1878) |
+| 			 |              |               |[Migrate from ntpd to Chrony](https://github.com/sonic-net/SONiC/pull/1852) |
+| 			 |              |               |[Packet Trimming](https://github.com/sonic-net/SONiC/issues/1850) |
+| 			 |              |               |[Per-Lane DOM data](https://github.com/sonic-net/SONiC/issues/1885) |
+| 			 |              |               |[Policer Counter - HLD](https://github.com/sonic-net/SONiC/pull/1817) |
+| 			 |              |               |[Port level Pre-FEC / Post-FEC BER (TP1, TP3, TP5) |](https://github.com/sonic-net/SONiC/issues/1884) |
+| 			 |              |               |[SAI debug generate dump support](https://github.com/sonic-net/SONiC/pull/1846) |
+| 			 |              |               |[SmartSwitch w/ DPU for both light mode and dark mode - infra layer](https://github.com/sonic-net/SONiC/issues/1881) |
+| 			 |              |               |[SONiC Security Auditing HLD](https://github.com/sonic-net/SONiC/pull/1713) |
+| 			 |              |               |[SRv6 MY_SID config programming and uDT46 support](https://github.com/sonic-net/SONiC/issues/1887) |
+| 			 |              |               |[[doc]: Stream Telemetry HLD](https://github.com/sonic-net/SONiC/pull/1795) |
+| 			 |              |               |[[testbed_doc] Design doc for deploying a single testbed with multiple servers](https://github.com/sonic-net/sonic-mgmt/pull/15395) |
+| 			 |              |               |[[test plan] Test plan for BGP scale test](https://github.com/sonic-net/sonic-mgmt/pull/15702) |
+| 			 |              |               |[TP1 - TP4 alarm current state, counters, last change time](https://github.com/sonic-net/SONiC/issues/1886) |
+| 			 |              |               |[Update Linux kernel to 6.1.123](https://github.com/sonic-net/SONiC/issues/1888) |
+| 			 |              |               |[Weighted Cost Multipathing for Chassis and PizzaBox devices](https://github.com/sonic-net/SONiC/issues/1737) |
 |SONiC.202411| 11/30/2024   |  SAI1.15.1    | [Progress Tracking](https://github.com/orgs/sonic-net/projects/18) |
 |		     |				|				|[[HLD] bmp for monitoring SONiC BGP info](https://github.com/sonic-net/SONiC/pull/1621) |
 |		     |				|				|[Add HLD for FRR-SONiC Communication Channel Enhancements](https://github.com/sonic-net/SONiC/pull/1620) |
