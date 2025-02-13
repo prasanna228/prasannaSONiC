@@ -50,13 +50,13 @@ The following are the schema changes.
 A new optional field **overlay_dmac** has been added in the existing Vnet table.
 
 ```
-VNET|//{//{vnet_name//}//} 
-    "vxlan_tunnel": //{//{tunnel_name//}//}
-    "vni": //{//{vni//}//} 
-    "scope": //{//{"default"//}//} (OPTIONAL)
-    "peer_list": //{//{vnet_name_list//}//} (OPTIONAL)
-    "advertise_prefix": //{//{false//}//} (OPTIONAL)
-    "overlay_dmac": //{//{MAC Address//}//} (OPTIONAL)  <<<< New Field
+VNET|{{vnet_name}} 
+    "vxlan_tunnel": {{tunnel_name}}
+    "vni": {{vni}} 
+    "scope": {{"default"}} (OPTIONAL)
+    "peer_list": {{vnet_name_list}} (OPTIONAL)
+    "advertise_prefix": {{false}} (OPTIONAL)
+    "overlay_dmac": {{MAC Address}} (OPTIONAL)  <<<< New Field
 ```
 
 
@@ -77,20 +77,20 @@ The following new fields have been added the **VNET_ROUTE_TUNNEL_TABLE**
 
 ```
 
-VNET_ROUTE_TUNNEL_TABLE://{//{vnet_name//}//}://{//{prefix//}//}  
-    “endpoint”: //{//{ip_address1//},//{ip_address2//},...//} 
-    “endpoint_monitor”: //{//{ip_address1//},//{ip_address2//},.../} (OPTIONAL) 
-    “mac_address”: //{//{mac_address1/},//{mac_address2/},.../} (OPTIONAL) 
-    “monitoring”: //{//{“custom”/}/} (OPTIONAL)                                  <<<< New Field
-    “vni”: //{//{vni1/},//{vni2/},.../} (OPTIONAL) 
-    “weight”: //{//{w1/},//{w2/},.../} (OPTIONAL) 
-    “profile”: //{//{profile_name/}/} (OPTIONAL) 
-    “primary”: //{//{ip_address1/}, //{ip_address2/}/} (OPTIONAL)                   <<<< New Field    
-    “profile”: //{//{profile_name/}/} (OPTIONAL)  
-    “adv_prefix”: //{//{prefix/}/} (OPTIONAL)                                    <<<< New Field
-    “rx_monitor_timer”: //{time in milliseconds/} (OPTIONAL)                  <<<< New Field
-    “tx_monitor_timer”: //{time in milliseconds/} (OPTIONAL)                  <<<< New Field
-    “check_directly_connected”: //{//{true|false/}/} (OPTIONAL)                  <<<< New Field
+VNET_ROUTE_TUNNEL_TABLE:{{vnet_name/}/}:{{prefix/}/}  
+    “endpoint”: /{/{ip_address1//},/{ip_address2//},...//} 
+    “endpoint_monitor”: /{/{ip_address1/},/{ip_address2/},.../} (OPTIONAL) 
+    “mac_address”: /{/{mac_address1/},/{mac_address2/},.../} (OPTIONAL) 
+    “monitoring”: /{/{“custom”/}/} (OPTIONAL)                                  <<<< New Field
+    “vni”: /{/{vni1/},/{vni2/},.../} (OPTIONAL) 
+    “weight”: /{/{w1/},/{w2/},.../} (OPTIONAL) 
+    “profile”: /{/{profile_name/}/} (OPTIONAL) 
+    “primary”: /{/{ip_address1/}, /{ip_address2/}/} (OPTIONAL)                   <<<< New Field    
+    “profile”: /{/{profile_name/}/} (OPTIONAL)  
+    “adv_prefix”: /{/{prefix/}/} (OPTIONAL)                                    <<<< New Field
+    “rx_monitor_timer”: /{time in milliseconds/} (OPTIONAL)                  <<<< New Field
+    “tx_monitor_timer”: /{time in milliseconds/} (OPTIONAL)                  <<<< New Field
+    “check_directly_connected”: /{{true|false/}/} (OPTIONAL)                  <<<< New Field
 ```
 
 
@@ -106,11 +106,11 @@ adv_prefix               = IP-PREFIX                 ; PRefix value to be advert
 A new table **VNET_MONITOR_TABLE** has been added to send the endpoint information to the custom monitoring module.
 
 ```
-VNET_MONITOR_TABLE://{//{endpoint/}/}://{//{ip_prefix/}/}  
-    “packet_type”: //{//{vxlan/}/} (OPTIONAL) 
-    “interval”: //{//{interval/}/} (OPTIONAL)  
-    “multiplier”: //{//{detection multiplier/}/} (OPTIONAL) 
-    “overlay_dmac”: //{//{mac_addr/}/}
+VNET_MONITOR_TABLE:{{endpoint}}:{{ip_prefix}}  
+    “packet_type”: {{vxlan}} (OPTIONAL) 
+    “interval”: {{interval}} (OPTIONAL)  
+    “multiplier”: {{detection multiplier}} (OPTIONAL) 
+    “overlay_dmac”: {{mac_addr}}
 ```
 
 ```
@@ -125,8 +125,8 @@ overlay_dmac             = MAC ADDR                  ; A MAC address value provi
 A new table in state DB is being added to recieve the response form the custom monitoring module to indicate endpoint liveness.
 
 ```
-VNET_MONITOR_TABLE|//{//{endpoint/}/}|//{//{ip_addr/}/}  
-    "state": //{//{up/down/}/} 
+VNET_MONITOR_TABLE|{{endpoint}}|{{ip_addr}}  
+    "state": {{up/down}} 
 ```
 ```
 state                    = STRING                    ; up/down indicating the livness of the nexthop.
