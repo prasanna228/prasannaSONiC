@@ -90,7 +90,7 @@ VNET_ROUTE_TUNNEL_TABLE:/{/{vnet_name/}/}:/{/{prefix/}/}
     “adv_prefix”: /{/{prefix/}/} (OPTIONAL)                                    <<<< New Field
     “rx_monitor_timer”: /{time in milliseconds/} (OPTIONAL)                  <<<< New Field
     “tx_monitor_timer”: /{time in milliseconds/} (OPTIONAL)                  <<<< New Field
-    “check_directly_connected”: /{{true|false/}/} (OPTIONAL)                  <<<< New Field
+    “check_directly_connected”: /{/{true|false/}/} (OPTIONAL)                  <<<< New Field
 ```
 
 
