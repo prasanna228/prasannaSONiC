@@ -78,7 +78,7 @@ The following new fields have been added the **VNET_ROUTE_TUNNEL_TABLE**
 ```
 
 VNET_ROUTE_TUNNEL_TABLE:/{/{vnet_name/}/}:/{/{prefix/}/}  
-    “endpoint”: /{/{ip_address1//},/{ip_address2//},...//} 
+    “endpoint”: /{/{ip_address1/},/{ip_address2/},.../} 
     “endpoint_monitor”: /{/{ip_address1/},/{ip_address2/},.../} (OPTIONAL) 
     “mac_address”: /{/{mac_address1/},/{mac_address2/},.../} (OPTIONAL) 
     “monitoring”: /{/{“custom”/}/} (OPTIONAL)                                  <<<< New Field
