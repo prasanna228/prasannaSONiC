@@ -24,7 +24,7 @@
 * [Upgrade hsflowd and remove dropmon build flags]
 
 
-# Newly Added
+# Newly Added - Monitoring Features
 
 * [bmp for monitoring SONiC BGP info](https://github.com/sonic-net/SONiC/pull/1621)
 * [Egress Sflow Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/sflow/sflow_hld.md)
@@ -87,7 +87,7 @@
 * [VXLAN src port configuration]
 
 
-# Newly Added
+# Newly Added - Routing/Switching Features
 
 * [Add SRv6 SID L3Adj](https://github.com/sonic-net/SONiC/pull/1472)
 * [BBR and Overlay ECMP coexistence with dual ToR](https://github.com/sonic-net/SONiC/issues/1735)
@@ -136,7 +136,7 @@
 * VOQ ([VOQ SONiC](https://github.com/Azure/SONiC/blob/master/doc/voq/voq_hld.md),[Distributed Forwarding VOQ Architecture](https://github.com/Azure/SONiC/blob/master/doc/voq/architecture.md),[Everflow support](https://github.com/Azure/SONiC/blob/master/doc/voq/everflow.md),[Fabric port support ](https://github.com/Azure/SONiC/blob/master/doc/voq/fabric.md),[LAG on Distributed VOQ](https://github.com/Azure/SONiC/blob/master/doc/voq/lag_hld.md))
 * [Weighted-Cost Multi-Path](https://github.com/sonic-net/SONiC/pull/1629) 
 
-# Newly Added
+# Newly Added - QoS Features
 
 * [Added fan_drawer class support in PDDF]
 * [Class-Based Forwarding](https://github.com/Azure/SONiC/pull/796)
@@ -280,7 +280,7 @@
 * [ZTP](https://github.com/Azure/SONiC/blob/master/doc/ztp/ztp.md)
 
 
-# Newly Added
+# Newly Added - System 
 
 * [ACL keys for matching BTH_opcode and AETH_syndrome]
 * [Add details of sff_mgr regarding deterministic bringup for SFF compliant modules](https://github.com/sonic-net/SONiC/pull/1334)
@@ -408,7 +408,7 @@
 * [UMF Transformer Enhancements and Optimization]
 * [UMF: Transformer Infrastructure](https://github.com/sonic-net/SONiC/pull/1287)	
 
-# Newly Added
+# Newly Added - Platform Related
 
 * [Broadcom syncd bookworm upgrade](https://github.com/sonic-net/SONiC/issues/1815)
 * [EVPN VXLAN for platforms using P2MP tunnel based L2 forwarding](https://github.com/Azure/SONiC/pull/806)
@@ -453,7 +453,7 @@
 * [RADIUS NSS Vulnerability]
 * [TACACS NSS Vulnerability]
 
-# Newly Added
+# Newly Added - Security
 
 * [ACL orch redesign](https://github.com/Azure/SONiC/pull/857)
 * [Security California Law](https://github.com/sonic-net/SONiC/blob/master/doc/California-SB237/California-SB237.md)
