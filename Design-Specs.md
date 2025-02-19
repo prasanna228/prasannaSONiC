@@ -6,20 +6,36 @@
 * [Egress Sflow Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/sflow/sflow_hld.md)
 * [Everflow enhancement](https://github.com/Azure/SONiC/blob/bb4f4a3a85935a38ec7f9625ef62cbe58c0998b4/doc/SONiC_EVERFLOW_IPv6.pdf) 
 * [gRPC](https://github.com/Azure/SONiC/blob/master/doc/system-telemetry/dialout.md)
-* [High-level Design of Storage Monitoring Daemon](https://github.com/sonic-net/SONiC/pull/1481)
+* [Storage Monitoring Daemon](https://github.com/sonic-net/SONiC/pull/1481)
 * [HW resource monitor](https://github.com/Azure/SONiC/blob/master/doc/DUT_monitor_HLD.md)
 * [Inband Flow Analyzer](https://github.com/NaveenKumarAketi/SONiC/blob/master/doc/ifa/SONiC_InbandFlowAnalyzer_FeatureSpec_Ver1.1.md)
 * [L3 RIF counter support](https://github.com/Azure/SONiC/blob/master/doc/rif-counters/RIF_counters.md)
-* [OSFP Transceiver monitoring]()
+* [OSFP Transceiver monitoring]
 * [Port Mirroring](https://github.com/Azure/SONiC/blob/e8c86d1b3a03d6320727ff148966081869461e4a/doc/SONiC_Port_Mirroring_HLD.md)
 * [PSU and FAN LED management](https://github.com/Azure/SONiC/blob/master/thermal-control-design.md)
 * [Sensor transceiver monitoring](https://github.com/Azure/SONiC/blob/cd1761bce13a9f50c4b3599506ce9ebeac61a886/doc/transceiver-monitor-hld.md)
 * [sFlow](https://github.com/Azure/SONiC/blob/master/doc/sflow/sflow_hld.md)
-* [Sflow 800G Support]()
+* [Sflow 800G Support]
 * [SSD diagnostic tolling](https://github.com/Azure/SONiC/blob/master/doc/ssdhealth_design.md)
 * [SONiC PCIe Monitoring services](https://github.com/Azure/SONiC/blob/master/doc/pcie-mon/pcie-monitoring-services-hld.md)
-* SONiC Platform Management & Monitoring([SONiC Chassis Platform Management & Monitoring](https://github.com/Azure/SONiC/blob/master/doc/pmon/pmon-chassis-design.md),[Platform Monitor Enhancement](https://github.com/Azure/SONiC/blob/master/doc/pmon/pmon-enhancement-design.md),[Platform Monitor for Multi-Asic platforms](https://github.com/Azure/SONiC/blob/master/doc/pmon/pmon_multiasic_design.md))
-* [Upgrade hsflowd and remove dropmon build flags]()
+* [SONiC Chassis Platform Management & Monitoring](https://github.com/Azure/SONiC/blob/master/doc/pmon/pmon-chassis-design.md)
+* [Platform Monitor Enhancement](https://github.com/Azure/SONiC/blob/master/doc/pmon/pmon-enhancement-design.md)
+* [Platform Monitor for Multi-Asic platforms](https://github.com/Azure/SONiC/blob/master/doc/pmon/pmon_multiasic_design.md))
+* [Upgrade hsflowd and remove dropmon build flags]
+
+
+# Newly Added
+
+* [bmp for monitoring SONiC BGP info](https://github.com/sonic-net/SONiC/pull/1621)
+* [Egress Sflow Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/sflow/sflow_hld.md)
+* [Storage Monitoring Daemon](https://github.com/sonic-net/SONiC/pull/1481)
+* [OSFP Transceiver monitoring]
+* [Sflow 800G Support]
+* [Upgrade hsflowd and remove dropmon build flags]
+
+
+
+
 
 # Routing/Switching Features
 * [Add SRv6 SID L3Adj](https://github.com/sonic-net/SONiC/pull/1472)
@@ -68,13 +84,41 @@
 * [Symcrypt integration with OpenSSL](https://github.com/sonic-net/SONiC/blob/master/doc/fips/SONiC-OpenSSL-FIPS-140-3.md)
 * [System Ready Enhancements](https://github.com/sonic-net/SONiC/blob/master/doc/system_health_monitoring/system-ready-HLD.md)
 * [VRF](https://github.com/Azure/SONiC/blob/master/doc/vrf/sonic-vrf-hld.md)
-* [VXLAN src port configuration]()
+* [VXLAN src port configuration]
+
+
+# Newly Added
+
+* [Add SRv6 SID L3Adj](https://github.com/sonic-net/SONiC/pull/1472)
+* [BBR and Overlay ECMP coexistence with dual ToR](https://github.com/sonic-net/SONiC/issues/1735)
+* [Better route scalability with multiple next-hops](https://github.com/Azure/SONiC/pull/712)
+* [Add HLD for FRR-SONiC Communication Channel Enhancements](https://github.com/sonic-net/SONiC/pull/1620)
+* [High-level design for Wake-on-LAN feature in SONiC](https://github.com/sonic-net/SONiC/blob/master/doc/wol/Wake-on-LAN-HLD.md)
+* [Inband mgmt VRF](https://github.com/venkatmahalingam/SONiC/blob/7781c097a92d9fbac3fc2fe2f8c6ce175839f473/doc/vrf/SONiC_in_band_mgmt_via_mgmt_Vrf_HLD.md)
+* [IPv6 Link Local and BGP Unnumbered](https://github.com/Azure/SONiC/pull/625)
+* [MC-LAG (L2)](https://github.com/Azure/SONiC/pull/596)
+* [NVGRE/GRE](https://github.com/sonic-net/SONiC/blob/master/doc/nvgre_tunnel/nvgre_tunnel.md)
+* [Overlay ECMP](https://github.com/Azure/SONiC/pull/861)
+* [Overlay ECMP - BFD offload](https://github.com/Azure/SONiC/pull/880)
+* [Routed sub-interface naming convention](https://github.com/Azure/SONiC/pull/833)
+* [SONiC ECMP calculator](https://github.com/sonic-net/SONiC/pull/1163)
+* [SONiC for MPLS Dataplane](https://github.com/Azure/SONiC/blob/364fcae0438ed583270b56319dcfcb91e20b918a/doc/mpls/MPLS_hld.md)
+* [[SNMP]: SONiC SNMP Changes to support IPv6](https://github.com/sonic-net/SONiC/blob/master/doc/snmp/snmp-changes-to-support-ipv6.md)
+* [Sorted next hop ECMP](https://github.com/sonic-net/SONiC/blob/master/doc/bum_storm_control/bum_storm_control_hld.md)
+* [SRv6 support (Cntd)](https://github.com/Azure/SONiC/pull/795)
+* [SSH global config](https://github.com/sonic-net/SONiC/blob/master/doc/ssh_config/ssh_config.md)
+* [Static Route BFD HLD document](https://github.com/sonic-net/SONiC/blob/master/doc/static-route/SONiC_static_route_bfd_hld.md)
+* [Storm Control (BUM)](https://github.com/sonic-net/SONiC/blob/453ca2acb11ef551cd7b859705f7bf6234ad9b5f/doc/bum_storm_control/bum_storm_control_hld.md)
+* [Switch Port Modes and VLAN CLI Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/vlan/switchport-mode-support/Switchport%20Mode%20and%20VLAN%20CLI%20Enhancement.md)
+* [Symcrypt integration with OpenSSL](https://github.com/sonic-net/SONiC/blob/master/doc/fips/SONiC-OpenSSL-FIPS-140-3.md)
+* [System Ready Enhancements](https://github.com/sonic-net/SONiC/blob/master/doc/system_health_monitoring/system-ready-HLD.md)
+* [VXLAN src port configuration]
 
 
 
 # QoS Features
 * [Asymmetric PFC](https://github.com/Azure/SONiC/wiki/Asymmetric-PFC-High-Level-Design) 
-* [Added fan_drawer class support in PDDF]()
+* [Added fan_drawer class support in PDDF]
 * [Class-Based Forwarding](https://github.com/Azure/SONiC/pull/796)
 * [Configurable Drop Counters in SONiC](https://github.com/Azure/SONiC/blob/master/doc/drop_counters/drop_counters_HLD.md)
 * [DSCP/TC remapping for tunnel traffic](https://github.com/sonic-net/SONiC/blob/master/doc/qos/tunnel_dscp_remapping.md)
@@ -85,16 +129,29 @@
 * [EXP to TC QoS maps](https://github.com/Azure/SONiC/pull/844)
 * [PFC WD](https://github.com/Azure/SONiC/wiki/PFC-Watchdog-Design) 
 * [PFC Watermark](https://github.com/Azure/SONiC/blob/master/doc/watermarks_HLD.md)
-* [Queue statistics based on queue configurations and not max]()
+* [Queue statistics based on queue configurations and not max]
 * [Route Flow counters (based on generic counters)](https://github.com/sonic-net/SONiC/blob/master/doc/flow_counters/routes_flow_counters.md)
 * [Sub-port support](https://github.com/wendani/SONiC/blob/a3e669e6778c272fc571a8bf3bd78e7eb75a8ec7/doc/sonic-sub-port-intf-hld.md)
 * [SONiC Policy Based Hashing](https://github.com/Azure/SONiC/blob/master/doc/pbh/pbh-design.md)
 * VOQ ([VOQ SONiC](https://github.com/Azure/SONiC/blob/master/doc/voq/voq_hld.md),[Distributed Forwarding VOQ Architecture](https://github.com/Azure/SONiC/blob/master/doc/voq/architecture.md),[Everflow support](https://github.com/Azure/SONiC/blob/master/doc/voq/everflow.md),[Fabric port support ](https://github.com/Azure/SONiC/blob/master/doc/voq/fabric.md),[LAG on Distributed VOQ](https://github.com/Azure/SONiC/blob/master/doc/voq/lag_hld.md))
+* [Weighted-Cost Multi-Path](https://github.com/sonic-net/SONiC/pull/1629) 
+
+# Newly Added
+
+* [Added fan_drawer class support in PDDF]
+* [Class-Based Forwarding](https://github.com/Azure/SONiC/pull/796)
+* [DSCP/TC remapping for tunnel traffic](https://github.com/sonic-net/SONiC/blob/master/doc/qos/tunnel_dscp_remapping.md)
+* [Dynamic policy based hashing](https://github.com/Azure/SONiC/blob/6af2959ee5829f801409fc833389e78802d5258a/doc/pbh/pbh-design.md)
+* [Everflow DSCP marking using Metadata](https://github.com/sonic-net/SONiC/pull/1743)
+* [EXP to TC QoS maps](https://github.com/Azure/SONiC/pull/844)
+* [Queue statistics based on queue configurations and not max]
+* [Route Flow counters (based on generic counters)](https://github.com/sonic-net/SONiC/blob/master/doc/flow_counters/routes_flow_counters.md)
 * [Weighted-Cost Multi-Path](https://github.com/sonic-net/SONiC/pull/1629)
 
 
+
 # System
-* [ACL keys for matching BTH_opcode and AETH_syndrome]()
+* [ACL keys for matching BTH_opcode and AETH_syndrome]
 * [Add details of sff_mgr regarding deterministic bringup for SFF compliant modules](https://github.com/sonic-net/SONiC/pull/1334)
 * [Add HLD for IPv4 port based DHCP server in SONiC](https://github.com/sonic-net/SONiC/pull/1282)
 * [Add LDAP HLD](https://github.com/sonic-net/SONiC/pull/1487)
@@ -118,7 +175,7 @@
 * [CMIS host management - Port signal integrity per speed](https://github.com/sonic-net/SONiC/blob/master/doc/port-si/Port_SI_Per_Speed.md)
 * [CMIS Module Management Enhancement HLD](https://github.com/sonic-net/SONiC/blob/master/doc/cmis-module-enhancement/cmis-module-enhancement.md)
 * [Collecting dump during SAI failure](https://github.com/sonic-net/SONiC/blob/master/doc/SAI_failure_handling/dump_on_sai_failure.md)
-* [Command for showing specific MAC from DB]()
+* [Command for showing specific MAC from DB]
 * [Config Reload Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/config_reload/config_reload_enhancement.md)
 * [Console Support for SONiC (SSH forwarding)](https://github.com/Azure/SONiC/blob/126a4f7af8cadd8451b22bd80227c07c11452a63/doc/console/SONiC-Console-Switch-High-Level-Design.md)
 * [Container Hardening](https://github.com/sonic-net/SONiC/blob/master/doc/Container%20Hardening/SONiC_container_hardening_HLD.md)
@@ -139,7 +196,7 @@
 * [Dynamic port breakout](https://github.com/Azure/SONiC/blob/master/doc/dynamic-port-breakout/sonic-dynamic-port-breakout-HLD.md)
 * [Enable synchronous SAI APIs (error handling)](https://github.com/Azure/SONiC/blob/master/doc/synchronous-mode/synchronous-mode-cfg.md)
 * [Enable/Disable auto negotiation and speed setting with number of lanes](https://github.com/Azure/SONiC/blob/9b58ef06ab49b489e3aed287659100ce7be8c76a/doc/port_auto_neg/port-auto-negotiation-design.md#cli-enhancements)
-* [Error handling (swss)]()
+* [Error handling (swss)]
 * [Enhanced xcrvd SFP error flow HLD](https://github.com/Azure/SONiC/pull/586)
 * [Entity sensor MIB extension](https://github.com/Azure/SONiC/pull/766)
 * [Extend auto tech support for memory threshold](https://github.com/sonic-net/SONiC/blob/master/doc/auto_techsupport_and_coredump_mgmt.md)
@@ -161,22 +218,22 @@
 * [IPv6 Link-local enhancements](https://github.com/Azure/SONiC/blob/master/doc/ipv6/ipv6_link_local.md)
 * [kdump](https://github.com/Azure/SONiC/blob/master/doc/kdump/SONiC-kdump.md)
 * [Klish CLI for show-tech support](https://github.com/sonic-net/SONiC/blob/d0986fb74c0210bb4661ede3674ca2a7eb367432/doc/mgmt/SONiC%20Management%20Framework%20Show%20Techsupport%20HLD.md)
-* [Libvs Port Counter Support]()
+* [Libvs Port Counter Support]
 * [Log analyzer to pytest](https://github.com/yvolynets-mlnx/SONiC/blob/b6faea33b7c2181942350ac94739c1330621bd0a/doc/loganalyzer_to_pytest.md)
 * [[LLDP][T2] Advertise Chassis Hostname when present.](https://github.com/sonic-net/sonic-buildimage/pull/19076)
 * [Mac Authentication Bypass](https://github.com/sonic-net/SONiC/issues/1854)
 * [Make syslog log level configuration persistent](https://github.com/sonic-net/SONiC/blob/master/doc/logging/persistent_logger/persistent_loglevel.md)
 * [Management Framework](https://github.com/Azure/SONiC/blob/master/doc/mgmt/Management%20Framework.md)
 * [Management Framework (Phase 2)](https://github.com/Azure/SONiC/blob/34cac1aabdc865fc41cbe064a2ab2442645524b1/doc/mgmt/Management%20Framework.md)
-* [MDIO IPC Client Library]()
+* [MDIO IPC Client Library]
 * [Mgmt VRF](https://github.com/Azure/sonic-utilities/pull/463/commits/d6d14929ef1f1d27f92e4bb5db30fba8b39dcfd4)
 * [Multi-DB optimization](https://github.com/Azure/SONiC/blob/ed69d427dcf358299b2c1b812e59a1e26a4ef4a5/doc/database/multi_database_instances.md)
-* [Multi-DB enhancement-Part 2]()
-* [NAT Bookworm Upgrade]()
+* [Multi-DB enhancement-Part 2]
+* [NAT Bookworm Upgrade]
 * [NetScan over VLAN support](https://github.com/sonic-net/SONiC/pull/1657)
 * [NextHop Group Table Enhancement](https://github.com/sonic-net/SONiC/pull/1636)
 * [Password Hardening](https://github.com/sonic-net/SONiC/blob/master/doc/passw_hardening/hld_password_hardening.md)
-* [Persistent DNS address across reboots]()
+* [Persistent DNS address across reboots]
 * [Port Access Control Phase 1](https://github.com/sonic-net/SONiC/issues/1724)
 * [Port breakout feature with CMIS enabled](https://github.com/sonic-net/SONiC/blob/master/doc/dynamic-port-breakout/sonic-dynamic-port-breakout-HLD.md)
 * [Port buffer drop counters in SONiC](https://github.com/Azure/SONiC/blob/master/doc/port_buffer_drop_counters/sonic_port_buffer_drop_counters.md)
@@ -206,7 +263,7 @@
 * [Standalone local clock setting](https://github.com/sonic-net/SONiC/blob/0ab39a3eaece239bbcfc23e73525c954a075096c/doc/Clock%20commands/clock_managment_hld.md)
 * [Structured message by streaming telemetry](https://github.com/sonic-net/SONiC/blob/9decb8c43b131fc9aeb1e28d8b55a548ae92248c/doc/event-alarm-framework/events-producer.md)
 * [Support hardware reboot/reload reason (Streaming Telemetry)](https://github.com/Azure/SONiC/blob/master/doc/system-telemetry/reboot-cause.md)
-* [Support for passing IS-IS, LDP and MicroBFD packets to CPU]()
+* [Support for passing IS-IS, LDP and MicroBFD packets to CPU]
 * [Support OpenSSL 3.0 SymCrypt provider and engine for bookworm](https://github.com/sonic-net/sonic-buildimage/pull/18088)
 * [Sub-port support](https://github.com/wendani/SONiC/blob/a3e669e6778c272fc571a8bf3bd78e7eb75a8ec7/doc/sonic-sub-port-intf-hld.md)
 * [System health and system LED](https://github.com/Azure/SONiC/blob/master/doc/system_health_monitoring/system-health-HLD.md)
@@ -223,6 +280,94 @@
 * [ZTP](https://github.com/Azure/SONiC/blob/master/doc/ztp/ztp.md)
 
 
+# Newly Added
+
+* [ACL keys for matching BTH_opcode and AETH_syndrome]
+* [Add details of sff_mgr regarding deterministic bringup for SFF compliant modules](https://github.com/sonic-net/SONiC/pull/1334)
+* [Add HLD for IPv4 port based DHCP server in SONiC](https://github.com/sonic-net/SONiC/pull/1282)
+* [Add LDAP HLD](https://github.com/sonic-net/SONiC/pull/1487)
+* [Add syslog message rate limit configuration per container](https://github.com/sonic-net/SONiC/blob/master/doc/syslog/syslog-rate-limit-design.md)
+* [Add system date row to ‘show version’](https://github.com/sonic-net/sonic-utilities/blob/master/doc/Command-Reference.md)
+* [App extension CLI generation tool](https://github.com/Azure/SONiC/pull/780)
+* [Authentication Manager for PAC](https://github.com/sonic-net/SONiC/issues/1853)
+* [Auto FEC](https://github.com/sonic-net/SONiC/blob/master/doc/port_auto_neg/auto-fec.md)
+* [Auto Neg Enhancement](https://github.com/ds952811/SONiC/blob/1cfa5041db5326c816725c487e73bfb77118c527/doc/port_auto_neg/port-auto-negotiation-design.md)
+* [Auto tech support w/orchagent abort case](https://github.com/vivekrnv/SONiC/blob/cabbac08f54246dd61a1f65dec320f9a08deb721/doc/auto_techsupport/auto_techsupport_and_coredump_mgmt.md)
+* [Automatic tech support and core dump creation](https://github.com/Azure/SONiC/pull/818)
+* [Banner HLD](https://github.com/sonic-net/SONiC/blob/master/doc/banner/banner_hld.md)
+* [Bookworm Upgrade LLDP, SNMP subagent, ICCPD, PDE, FRR](https://github.com/sonic-net/SONiC/issues/1677)
+* [Build Time Improvement Version Caching Support](https://github.com/sonic-net/SONiC/blob/master/doc/sonic-build-system/build-enhancements.md)
+* [Broadcom silicon common config](https://github.com/Azure/SONiC/pull/699)
+* [Bulk counters](https://github.com/sonic-net/SONiC/blob/master/doc/bulk_counter/bulk_counter.md)
+* [CLI level authorization](https://github.com/Azure/SONiC/pull/813)
+* [CMIS Diagnostics](https://github.com/sonic-net/SONiC/blob/d1633130fa192d99eaa9cc32d9eb6087f45e64e1/doc/sfp-cmis/cmis.md)
+* [CMIS host management - Port signal integrity per speed](https://github.com/sonic-net/SONiC/blob/master/doc/port-si/Port_SI_Per_Speed.md)
+* [CMIS Module Management Enhancement HLD](https://github.com/sonic-net/SONiC/blob/master/doc/cmis-module-enhancement/cmis-module-enhancement.md)
+* [Collecting dump during SAI failure](https://github.com/sonic-net/SONiC/blob/master/doc/SAI_failure_handling/dump_on_sai_failure.md)
+* [Command for showing specific MAC from DB]
+* [Config Reload Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/config_reload/config_reload_enhancement.md)
+* [Container Hardening](https://github.com/sonic-net/SONiC/blob/master/doc/Container%20Hardening/SONiC_container_hardening_HLD.md)
+* [counter delay via config_db and not via systemd](https://github.com/Azure/SONiC/blob/1e5a5cdc2cd16142801b80d8cbb02eec38440fb6/doc/counters_enabling_redesign.md)
+* [CVL Infra Enhancement](https://github.com/sonic-net/SONiC/issues/1680)
+* [CVL dynamic table field support](https://github.com/sonic-net/SONiC/issues/1682)
+* [CVL singleton table and multi-list table support](https://github.com/sonic-net/SONiC/issues/1681)
+* [[DASH] ACL tags HLD](https://github.com/sonic-net/SONiC/blob/master/doc/dash/dash-acl-tags/dash-acl-tags.md)
+* [Decrease number of false positive triggers while using PFC watchdog](https://github.com/sonic-net/SONiC/pull/1660)
+* [Debian Kernel Upgrade to 4.9](https://github.com/Azure/SONiC/wiki/Upgrading-SONiC-kernel-to-3.16.0-5-or-later-versions)   
+* [Deterministic interface Link bring-up](https://github.com/sonic-net/SONiC/blob/323b161349a0c0d6d2319d66026f38536c266990/doc/sfp-cmis/Interface-Link-bring-up-sequence.md)
+* [DHCP support IPv6](https://github.com/Azure/SONiC/pull/787)
+* [Enable/Disable auto negotiation and speed setting with number of lanes](https://github.com/Azure/SONiC/blob/9b58ef06ab49b489e3aed287659100ce7be8c76a/doc/port_auto_neg/port-auto-negotiation-design.md#cli-enhancements)
+* [Error handling (swss)]
+* [Enhanced xcrvd SFP error flow HLD](https://github.com/Azure/SONiC/pull/586)
+* [Entity sensor MIB extension](https://github.com/Azure/SONiC/pull/766)
+* [Extend auto tech support for memory threshold](https://github.com/sonic-net/SONiC/blob/master/doc/auto_techsupport_and_coredump_mgmt.md)
+* [Extend CMIS host management debug capability](https://github.com/sonic-net/SONiC/pull/1476)
+* [Extend CMIS host management to support warmboot and fastboot](https://github.com/sonic-net/SONiC/pull/1663)
+* [FIB Suppress Announcements of Routes Not Installed in HW](https://github.com/sonic-net/SONiC/blob/3ae161c4efa4ccab8443d90de3adfd4e7bfc9701/doc/BGP/BGP-supress-fib-pending.md)
+* [FirmWare tils extension](https://github.com/Azure/SONiC/blob/master/doc/fwutil/fwutil.md)
+* [Fix containers deployments dependencies on boot/config_reload affecting user experience](https://github.com/sonic-net/SONiC/blob/master/doc/config_reload/config_reload_enhancement.md)
+* [General config CLI validation by YANG model](https://github.com/sonic-net/SONiC/blob/master/doc/config_yang_validation/config_db_yang_validation.md)
+* [Go Code format checker and formatter](https://github.com/sonic-net/SONiC/issues/1678)
+* [gNMI interface for config](https://github.com/sonic-net/SONiC/blob/master/doc/mgmt/gnmi/SONiC_GNMI_Server_Interface_Design.md)
+* [gNMI Master Arbitration](https://github.com/sonic-net/SONiC/blob/master/doc/mgmt/gnmi/master_arbitration.md)
+* [Handle port config change on fly in xcvrd](https://github.com/Azure/SONiC/pull/839)
+* [HLD for cli sessions feature](https://github.com/sonic-net/SONiC/pull/1367)
+* [HLD: DHCPv4 - Specify dhcp relay's Gateway explicitly with Primary address.](https://github.com/sonic-net/SONiC/pull/1470)
+* [Host interface trap counter](https://github.com/Azure/SONiC/pull/858)
+* [Incremental port configuration update](https://github.com/sonic-net/SONiC/blob/master/doc/port_auto_neg/port-auto-negotiation-design.md)
+* [Klish CLI for show-tech support](https://github.com/sonic-net/SONiC/blob/d0986fb74c0210bb4661ede3674ca2a7eb367432/doc/mgmt/SONiC%20Management%20Framework%20Show%20Techsupport%20HLD.md)
+* [Libvs Port Counter Support]
+* [[LLDP][T2] Advertise Chassis Hostname when present.](https://github.com/sonic-net/sonic-buildimage/pull/19076)
+* [Mac Authentication Bypass](https://github.com/sonic-net/SONiC/issues/1854)
+* [Make syslog log level configuration persistent](https://github.com/sonic-net/SONiC/blob/master/doc/logging/persistent_logger/persistent_loglevel.md)
+* [MDIO IPC Client Library]
+* [Multi-DB enhancement-Part 2]
+* [NAT Bookworm Upgrade]
+* [NetScan over VLAN support](https://github.com/sonic-net/SONiC/pull/1657)
+* [NextHop Group Table Enhancement](https://github.com/sonic-net/SONiC/pull/1636)
+* [Password Hardening](https://github.com/sonic-net/SONiC/blob/master/doc/passw_hardening/hld_password_hardening.md)
+* [Persistent DNS address across reboots]
+* [Port Access Control Phase 1](https://github.com/sonic-net/SONiC/issues/1724)
+* [Port breakout feature with CMIS enabled](https://github.com/sonic-net/SONiC/blob/master/doc/dynamic-port-breakout/sonic-dynamic-port-breakout-HLD.md)
+* [Preserve CoPP table during fastboot](https://github.com/sonic-net/SONiC/blob/master/doc/copp/Preserve_COPP_tables_to_improve_fast-reboot.md)
+* [RESTCONF infra enhancement](https://github.com/sonic-net/SONiC/issues/1679)
+* [S3IP sysfs](https://github.com/sonic-net/SONiC/blob/f352ebfcacbaa7073c7496367d64a4b8caf1fb90/doc/s3ip_sysfs/s3ip_sysfs_hld.md)
+* [Setting RIF loopback action to drop](https://github.com/sonic-net/SONiC/blob/master/doc/ip-interface/loopback-action/ip-interface-loopback-action-design.md)
+* [Reclaim reserved buffer for unused ports](https://github.com/Azure/SONiC/pull/831)
+* [rsyslog enhancements](https://github.com/iavraham/SONiC/blob/master/doc/syslog/syslog-design.md)
+* [SRv6 uSID support in SONiC dataplane - uN, uA](https://github.com/sonic-net/SONiC/blob/master/doc/srv6/SRv6_uSID.md)
+* [Standalone local clock setting](https://github.com/sonic-net/SONiC/blob/0ab39a3eaece239bbcfc23e73525c954a075096c/doc/Clock%20commands/clock_managment_hld.md)
+* [Structured message by streaming telemetry](https://github.com/sonic-net/SONiC/blob/9decb8c43b131fc9aeb1e28d8b55a548ae92248c/doc/event-alarm-framework/events-producer.md)
+* [Support for passing IS-IS, LDP and MicroBFD packets to CPU]
+* [Support OpenSSL 3.0 SymCrypt provider and engine for bookworm](https://github.com/sonic-net/sonic-buildimage/pull/18088)
+* [Systemd bootchart integration](https://github.com/sonic-net/SONiC/blob/master/doc/profiling/sonic_bootchart.md)
+* [Syslog Source IP configuration](https://github.com/sonic-net/SONiC/blob/master/doc/syslog/syslog-design.md)
+* [Third party container management using the Sonic Application Framework](https://github.com/sonic-net/SONiC/pull/1286)
+* [Telemetry for Multi-ASIC]
+* [TLS1.3 Support](https://github.com/sonic-net/SONiC/issues/1531)
+* [TPID config support](https://github.com/Azure/SONiC/pull/681)
+* [V4/V6 L3 ACL optimization](https://github.com/sonic-net/SONiC/blob/master/doc/acl/Extend-L3V6ACLs.md)
+* [Virtual SONiC Network Helper](https://github.com/ramakristipati/sonic-mgmt/blob/master/spytest/Doc/vsnet.md)
 
 
 # Platform Related
@@ -246,22 +391,53 @@
 * [PMon Refactoring](https://github.com/Azure/SONiC/tree/master/doc/pmon)
 * [Silicon config support for Broadcom yml file and property overwrite](https://github.com/sonic-net/SONiC/issues/1814)
 * [Sonic sfp Refactoring](https://github.com/Azure/SONiC/blob/master/doc/sfp-refactor/sfp-refactor.md)
-* [SONIC YANG Support for KDUMP, ACL, MCLAG, BUM Storm Control]()
+* [SONIC YANG Support for KDUMP, ACL, MCLAG, BUM Storm Control]
 * [SONIC YANG - VxLAN, SNMP](https://github.com/sonic-net/sonic-buildimage/blob/master/src/sonic-yang-models/doc/Configuration.md)
-* [SONiC YANG Support for IPv6 Link Local]()
+* [SONiC YANG Support for IPv6 Link Local]
 * [SSD diagnostic tooling](https://github.com/Azure/SONiC/blob/master/doc/ssdhealth_design.md) 
 * [[SubnetDecap] Add subnet decap HLD](https://github.com/sonic-net/SONiC/pull/1657)
 * [Transceiver parameter tuning](https://github.com/Azure/SONiC/blob/master/doc/media-settings/Media-based-Port-settings.md)
-* [UMF: Additional Optimizations for Transformer Infrastructure]()
+* [UMF: Additional Optimizations for Transformer Infrastructure]
 * [UMF Config Session Support](https://github.com/sonic-net/SONiC/pull/1518)
 * [UMF infra enhancement](https://github.com/sonic-net/SONiC/pull/1287)
-* [UMF Infra Enhancement for SONIC-YANG]()
+* [UMF Infra Enhancement for SONIC-YANG]
 * [UMF: OpenConfig YANG support for Physical Interfaces](https://github.com/sonic-net/SONiC/pull/1628)
 * [UMF subscription enhancement](https://github.com/sonic-net/SONiC/issues/1705)
 * [UMF Subscription Infra Phase 1](https://github.com/sonic-net/SONiC/blob/master/doc/mgmt/gnmi/gNMI_Subscription_for_YangData.md)
 * [UMF Subscription Infra Phase 2](https://github.com/sonic-net/SONiC/blob/master/doc/mgmt/gnmi/gNMI_Subscription_for_YangData.md)
-* [UMF Transformer Enhancements and Optimization]()
+* [UMF Transformer Enhancements and Optimization]
 * [UMF: Transformer Infrastructure](https://github.com/sonic-net/SONiC/pull/1287)	
+
+# Newly Added
+
+* [Broadcom syncd bookworm upgrade](https://github.com/sonic-net/SONiC/issues/1815)
+* [EVPN VXLAN for platforms using P2MP tunnel based L2 forwarding](https://github.com/Azure/SONiC/pull/806)
+* [Factory reset](https://github.com/sonic-net/SONiC/blob/master/doc/reset_factory/ResetFactoryHLD.md)
+* [Link Training](https://github.com/ds952811/SONiC/blob/5b8291a3c2770b84ebb1827f037c123201cb4745/doc/port_link_training/port-link-training-design.md)
+* [NPU MDIO Access Support and gbsyncd Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/gearbox/gearbox_mdio-HLD.md)
+* [NTP: Additional NTP configuration knobs + NTP server provisioning](https://github.com/sonic-net/SONiC/blob/master/doc/ntp/ntp-design.md)
+* [[NTP] Fix config template to init default parameters](https://github.com/sonic-net/sonic-buildimage/pull/18736)
+* [PDDF advance to SONiC Platform 2.0, BMC](https://github.com/Azure/SONiC/blob/master/doc/platform/
+* [PINS (P4 Integrated Network Stack)](https://github.com/Azure/SONiC/issues/841)
+* [PINS Generic SAI Extensions](https://github.com/sonic-net/SONiC/blob/master/doc/pins/PINS_SONiC_Design_for_SaiGenericExt.md)
+* [PINS Generic SAI Extensions resource monitoring support](https://github.com/sonic-net/SONiC/blob/master/doc/crm/Generic_SAI_Extensions_CRM.md)
+* [PINS Runtime Configuration](https://github.com/sonic-net/SONiC/blob/master/doc/pins/p4rt_app_hld.md)
+* [Silicon config support for Broadcom yml file and property overwrite](https://github.com/sonic-net/SONiC/issues/1814)
+* [SONIC YANG Support for KDUMP, ACL, MCLAG, BUM Storm Control]
+* [SONIC YANG - VxLAN, SNMP](https://github.com/sonic-net/sonic-buildimage/blob/master/src/sonic-yang-models/doc/Configuration.md)
+* [SONiC YANG Support for IPv6 Link Local]
+* [[SubnetDecap] Add subnet decap HLD](https://github.com/sonic-net/SONiC/pull/1657)
+* [UMF: Additional Optimizations for Transformer Infrastructure]
+* [UMF Config Session Support](https://github.com/sonic-net/SONiC/pull/1518)
+* [UMF infra enhancement](https://github.com/sonic-net/SONiC/pull/1287)
+* [UMF Infra Enhancement for SONIC-YANG]
+* [UMF: OpenConfig YANG support for Physical Interfaces](https://github.com/sonic-net/SONiC/pull/1628)
+* [UMF subscription enhancement](https://github.com/sonic-net/SONiC/issues/1705)
+* [UMF Subscription Infra Phase 1](https://github.com/sonic-net/SONiC/blob/master/doc/mgmt/gnmi/gNMI_Subscription_for_YangData.md)
+* [UMF Subscription Infra Phase 2](https://github.com/sonic-net/SONiC/blob/master/doc/mgmt/gnmi/gNMI_Subscription_for_YangData.md)
+* [UMF Transformer Enhancements and Optimization]
+* [UMF: Transformer Infrastructure](https://github.com/sonic-net/SONiC/pull/1287)
+
 
 
 
@@ -274,8 +450,19 @@
 * [Security California Law](https://github.com/sonic-net/SONiC/blob/master/doc/California-SB237/California-SB237.md)
 * [Security Secure boot](https://github.com/sonic-net/SONiC/blob/master/doc/secure_boot/hld_secure_boot.md)
 * [SONiC YANG RADIUS Server and RADIUS table](https://github.com/sonic-net/sonic-buildimage/blob/master/src/sonic-yang-models/doc/Configuration.md)
-* [RADIUS NSS Vulnerability]()
-* [TACACS NSS Vulnerability]()
+* [RADIUS NSS Vulnerability]
+* [TACACS NSS Vulnerability]
+
+# Newly Added
+
+* [ACL orch redesign](https://github.com/Azure/SONiC/pull/857)
+* [Security California Law](https://github.com/sonic-net/SONiC/blob/master/doc/California-SB237/California-SB237.md)
+* [Security Secure boot](https://github.com/sonic-net/SONiC/blob/master/doc/secure_boot/hld_secure_boot.md)
+* [SONiC YANG RADIUS Server and RADIUS table](https://github.com/sonic-net/sonic-buildimage/blob/master/src/sonic-yang-models/doc/Configuration.md)
+* [RADIUS NSS Vulnerability]
+* [TACACS NSS Vulnerability]
+
+
 
 Please refer to [SONiC Roadmap page](https://github.com/Azure/SONiC/wiki/Sonic-Roadmap-Planning) for which release, a particular feature is in. 
  
