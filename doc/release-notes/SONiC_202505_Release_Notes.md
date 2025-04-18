@@ -54,11 +54,11 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 
 | Feature| Feature Description | HLD PR / PR tracking |	Quality |
 | ------ | ------- | -----|-----|
-| Add Srv6 static config HLD |    | https://github.com/sonic-net/SONiC/pull/1860 |   |
-| [testbed_doc] Design doc for deploying a single testbed with multiple servers |   | https://github.com/sonic-net/sonic-mgmt/pull/15395 |   |
-| HLD for diagnostic monitoring of CMIS based transceivers |   |https://github.com/sonic-net/SONiC/pull/1828 |   |
-| Event/alarm framework HLD update. Integrate with event producer framework.  | https://github.com/sonic-net/SONiC/pull/1409 |   |
-| Enhance bulk counter poll HLD and implementation for better accuracy and performance   | https://github.com/sonic-net/SONiC/pull/1864 |   |
+| Add Srv6 static config HLD |    | [1860](https://github.com/sonic-net/SONiC/pull/1860) |   |
+| [testbed_doc] Design doc for deploying a single testbed with multiple servers |   | [15395](https://github.com/sonic-net/sonic-mgmt/pull/15395) |   |
+| HLD for diagnostic monitoring of CMIS based transceivers |   | [1828](https://github.com/sonic-net/SONiC/pull/1828) |   |
+| Event/alarm framework HLD update. Integrate with event producer framework.  | [1409](https://github.com/sonic-net/SONiC/pull/1409) |   |
+| Enhance bulk counter poll HLD and implementation for better accuracy and performance   | [1864](https://github.com/sonic-net/SONiC/pull/1864) |   |
 
 
 Note : The HLD PR's have been updated in ""HLD PR / PR tracking"" coloumn. The code PR's part of the features are mentioned within the HLD PRs. The code PRs not mentioned in HLD PRs are updated in "HLD PR / PR tracking" coloumn along with HLD PRs.
