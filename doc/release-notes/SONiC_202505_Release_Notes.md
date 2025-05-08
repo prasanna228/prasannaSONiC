@@ -55,20 +55,20 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 | Feature| Feature Description | HLD PR / PR tracking |	Quality |
 | ------ | ------- | -----|-----|
 | ***Add Srv6 static config HLD*** |    | [1860](https://github.com/sonic-net/SONiC/pull/1860) |   |
-| ***Authentication Support for 802.1X and MAB*** |	|  https://github.com/sonic-net/SONiC/issues/1977 |   |
-| ***CVL Enhancements*** |	|  https://github.com/sonic-net/SONiC/issues/1969 |   |
+| ***Authentication Support for 802.1X and MAB*** |	|  [1977](https://github.com/sonic-net/SONiC/issues/1977) |   |
+| ***CVL Enhancements*** |	|  [1969](https://github.com/sonic-net/SONiC/issues/1969) |   |
 | [testbed_doc] ***Design doc for deploying a single testbed with multiple servers*** |   | [15395](https://github.com/sonic-net/sonic-mgmt/pull/15395) |   |
 | ***Event/alarm framework HLD update. Integrate with event producer framework.*** |  | [1409](https://github.com/sonic-net/SONiC/pull/1409) |   |
 | ***Enhance bulk counter poll HLD and implementation for better accuracy and performance***  |   | [1864](https://github.com/sonic-net/SONiC/pull/1864) |   |
 | ***HLD for diagnostic monitoring of CMIS based transceivers*** |   | [1828](https://github.com/sonic-net/SONiC/pull/1828) |   |
-| ***Migrate from ntpd to Chrony*** |	|  https://github.com/sonic-net/SONiC/pull/1852 |   |
-| ***MSTP configuration tool and utilities*** |	|  https://github.com/sonic-net/SONiC/issues/1971 |   |
-| ***MSTP State Machines*** |	|  https://github.com/sonic-net/SONiC/issues/1970 |   |
-| ***PAC Phase 2*** |	|  https://github.com/sonic-net/SONiC/issues/1978 |   |
-| ***PVST*** |	|  https://github.com/sonic-net/SONiC/issues/1968 |   |
-| ***Translib bulk API support*** |	|  https://github.com/sonic-net/SONiC/issues/1972 |   |
-| ***UMF infra enhancement*** |	|  https://github.com/sonic-net/SONiC/issues/1974 |   |
-| ***YANG RPC support via gNOI*** |	|  https://github.com/sonic-net/SONiC/issues/1973 |   |
+| ***Migrate from ntpd to Chrony*** |	|  [1852](https://github.com/sonic-net/SONiC/pull/1852) |   |
+| ***MSTP configuration tool and utilities*** |	|  [1971](https://github.com/sonic-net/SONiC/issues/1971) |   |
+| ***MSTP State Machines*** |	|  [1970](https://github.com/sonic-net/SONiC/issues/1970) |   |
+| ***PAC Phase 2*** |	|  [1978](https://github.com/sonic-net/SONiC/issues/1978) |   |
+| ***PVST*** |	|  [1968](https://github.com/sonic-net/SONiC/issues/1968) |   |
+| ***Translib bulk API support*** |	| [1972]( https://github.com/sonic-net/SONiC/issues/1972) |   |
+| ***UMF infra enhancement*** |	|  [1974](https://github.com/sonic-net/SONiC/issues/1974) |   |
+| ***YANG RPC support via gNOI*** |	|  [1973](https://github.com/sonic-net/SONiC/issues/1973) |   |
 
 
 
