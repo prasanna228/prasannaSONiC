@@ -54,21 +54,21 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 
 | Feature| Feature Description | HLD PR / PR tracking |	Quality |
 | ------ | ------- | -----|-----|
-| ***Add Srv6 static config HLD*** |    | [1860](https://github.com/sonic-net/SONiC/pull/1860) |   |
-| ***Authentication Support for 802.1X and MAB*** |	|  [1977](https://github.com/sonic-net/SONiC/issues/1977) |   |
-| ***CVL Enhancements*** |	|  [1969](https://github.com/sonic-net/SONiC/issues/1969) |   |
-| [testbed_doc] ***Design doc for deploying a single testbed with multiple servers*** |   | [15395](https://github.com/sonic-net/sonic-mgmt/pull/15395) |   |
-| ***Event/alarm framework HLD update. Integrate with event producer framework.*** |  | [1409](https://github.com/sonic-net/SONiC/pull/1409) |   |
-| ***Enhance bulk counter poll HLD and implementation for better accuracy and performance***  |   | [1864](https://github.com/sonic-net/SONiC/pull/1864) |   |
-| ***HLD for diagnostic monitoring of CMIS based transceivers*** |   | [1828](https://github.com/sonic-net/SONiC/pull/1828) |   |
-| ***Migrate from ntpd to Chrony*** |	|  [1852](https://github.com/sonic-net/SONiC/pull/1852) |   |
-| ***MSTP configuration tool and utilities*** |	|  [1971](https://github.com/sonic-net/SONiC/issues/1971) |   |
-| ***MSTP State Machines*** |	|  [1970](https://github.com/sonic-net/SONiC/issues/1970) |   |
-| ***PAC Phase 2*** |	|  [1978](https://github.com/sonic-net/SONiC/issues/1978) |   |
-| ***PVST*** |	|  [1968](https://github.com/sonic-net/SONiC/issues/1968) |   |
-| ***Translib bulk API support*** |	| [1972]( https://github.com/sonic-net/SONiC/issues/1972) |   |
-| ***UMF infra enhancement*** |	|  [1974](https://github.com/sonic-net/SONiC/issues/1974) |   |
-| ***YANG RPC support via gNOI*** |	|  [1973](https://github.com/sonic-net/SONiC/issues/1973) |   |
+| ***Add Srv6 static config HLD*** | This feature implements the change in SONiC to support static configuration of Segment-routing over IPv6. Besides, a YANG model specification for the new table in CONFIG_DB is also defined.   | [1860](https://github.com/sonic-net/SONiC/pull/1860) |   |
+| ***Authentication Support for 802.1X and MAB*** | This feature supports the authentication for 802.1X and for MAB support |  [1977](https://github.com/sonic-net/SONiC/issues/1977) |   |
+| ***CVL Enhancements*** | This feature enhances the cvl custom validation to demonstrate its capability to allow/deny configuration based on other db data. 	|  [1969](https://github.com/sonic-net/SONiC/issues/1969) |   |
+| [testbed_doc] ***Design doc for deploying a single testbed with multiple servers*** | This implementation recommends to leverage the servers to deploy single testbed with multiple servers instead of a single server for a single testbed. | [15395](https://github.com/sonic-net/sonic-mgmt/pull/15395) |   |
+| ***Event/alarm framework HLD update. Integrate with event producer framework.*** | This implements the availability of event producer framework, and this design is updated to provide DB/persistent support for event history. Also gnmi/rest openconfig interface for get operations and gnmi subscription.  | [1409](https://github.com/sonic-net/SONiC/pull/1409) |   |
+| ***Enhance bulk counter poll HLD and implementation for better accuracy and performance***  | This feature implements counter-polling interval more accurate by setting bulk chunk size for a counter or per counter and collect timestamp in sairedis instead of in the Lua plugin  | [1864](https://github.com/sonic-net/SONiC/pull/1864) |   |
+| ***HLD for diagnostic monitoring of CMIS based transceivers*** | This feature provides an overview of how SONiC reads and stores the various diagnostic parameters read from a CMIS based transceiver.  | [1828](https://github.com/sonic-net/SONiC/pull/1828) |   |
+| ***Migrate from ntpd to Chrony*** | This feature is to describe the migration from ntpd to Chrony, along with the need and the changes that has been implemented.	|  [1852](https://github.com/sonic-net/SONiC/pull/1852) |   |
+| ***MSTP configuration tool and utilities*** | This implements the MSTP configuration tool and its utilities for API packages.	|  [1971](https://github.com/sonic-net/SONiC/issues/1971) |   |
+| ***MSTP State Machines*** | This implements the MSTP state machine packages and its utilities.	|  [1970](https://github.com/sonic-net/SONiC/issues/1970) |   |
+| ***PAC Phase 2*** | This feature implements the Port Access Control (PAC) by means of preventing unauthorized access by users to the services offered by a Network. |  [1978](https://github.com/sonic-net/SONiC/issues/1978) |   |
+| ***PVST*** | 	|  [1968](https://github.com/sonic-net/SONiC/issues/1968) |   |
+| ***Translib bulk API support*** |	This implements the test cases part of sonic-gnmi and mgmt-framework.| [1972]( https://github.com/sonic-net/SONiC/issues/1972) |   |
+| ***UMF infra enhancement*** | This fixes the pipeline tests which were failing after recent openconfig-interface related changes in sonic-mgmt-common repo.	|  [1974](https://github.com/sonic-net/SONiC/issues/1974) |   |
+| ***YANG RPC support via gNOI*** | This feature implements the The YANG RPC support using gNOI.The protobufs are auto-generated as part of build from YANG files. |  [1973](https://github.com/sonic-net/SONiC/issues/1973) |   |
 
 
 
