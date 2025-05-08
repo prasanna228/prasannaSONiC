@@ -55,10 +55,22 @@ Note : The kernel version is migrated to the version that is mentioned in the fi
 | Feature| Feature Description | HLD PR / PR tracking |	Quality |
 | ------ | ------- | -----|-----|
 | ***Add Srv6 static config HLD*** |    | [1860](https://github.com/sonic-net/SONiC/pull/1860) |   |
+| ***Authentication Support for 802.1X and MAB*** |	|  https://github.com/sonic-net/SONiC/issues/1977 |   |
+| ***CVL Enhancements*** |	|  https://github.com/sonic-net/SONiC/issues/1969 |   |
 | [testbed_doc] ***Design doc for deploying a single testbed with multiple servers*** |   | [15395](https://github.com/sonic-net/sonic-mgmt/pull/15395) |   |
-| ***HLD for diagnostic monitoring of CMIS based transceivers*** |   | [1828](https://github.com/sonic-net/SONiC/pull/1828) |   |
 | ***Event/alarm framework HLD update. Integrate with event producer framework.*** |  | [1409](https://github.com/sonic-net/SONiC/pull/1409) |   |
 | ***Enhance bulk counter poll HLD and implementation for better accuracy and performance***  |   | [1864](https://github.com/sonic-net/SONiC/pull/1864) |   |
+| ***HLD for diagnostic monitoring of CMIS based transceivers*** |   | [1828](https://github.com/sonic-net/SONiC/pull/1828) |   |
+| ***Migrate from ntpd to Chrony*** |	|  https://github.com/sonic-net/SONiC/pull/1852 |   |
+| ***MSTP configuration tool and utilities*** |	|  https://github.com/sonic-net/SONiC/issues/1971 |   |
+| ***MSTP State Machines*** |	|  https://github.com/sonic-net/SONiC/issues/1970 |   |
+| ***PAC Phase 2*** |	|  https://github.com/sonic-net/SONiC/issues/1978 |   |
+| ***PVST*** |	|  https://github.com/sonic-net/SONiC/issues/1968 |   |
+| ***Translib bulk API support*** |	|  https://github.com/sonic-net/SONiC/issues/1972 |   |
+| ***UMF infra enhancement*** |	|  https://github.com/sonic-net/SONiC/issues/1974 |   |
+| ***YANG RPC support via gNOI*** |	|  https://github.com/sonic-net/SONiC/issues/1973 |   |
+
+
 
 
 Note : The HLD PR's have been updated in ""HLD PR / PR tracking"" coloumn. The code PR's part of the features are mentioned within the HLD PRs. The code PRs not mentioned in HLD PRs are updated in "HLD PR / PR tracking" coloumn along with HLD PRs.
