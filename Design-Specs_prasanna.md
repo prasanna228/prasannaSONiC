@@ -62,12 +62,9 @@
 * [Sorted next hop ECMP](https://github.com/sonic-net/SONiC/blob/master/doc/bum_storm_control/bum_storm_control_hld.md)
 * [SRv6 support (Cntd)](https://github.com/Azure/SONiC/pull/795)
 * [SRv6 SID L3Adj](https://github.com/sonic-net/SONiC/pull/1472)
-* [SSH global config](https://github.com/sonic-net/SONiC/blob/master/doc/ssh_config/ssh_config.md)
 * [Static Route BFD HLD document](https://github.com/sonic-net/SONiC/blob/master/doc/static-route/SONiC_static_route_bfd_hld.md)
 * [Storm Control (BUM)](https://github.com/sonic-net/SONiC/blob/453ca2acb11ef551cd7b859705f7bf6234ad9b5f/doc/bum_storm_control/bum_storm_control_hld.md)
 * [STP/PVST](https://github.com/Azure/SONiC/blob/master/doc/stp/SONiC_PVST_HLD.md)
-* [Switch Port Modes and VLAN CLI Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/vlan/switchport-mode-support/Switchport%20Mode%20and%20VLAN%20CLI%20Enhancement.md)
-* [System Ready Enhancements](https://github.com/sonic-net/SONiC/blob/master/doc/system_health_monitoring/system-ready-HLD.md)
 * [VRF](https://github.com/Azure/SONiC/blob/master/doc/vrf/sonic-vrf-hld.md)
 * VXLAN src port configuration
 * [Wake-on-LAN feature in SONiC](https://github.com/sonic-net/SONiC/blob/master/doc/wol/Wake-on-LAN-HLD.md)
@@ -208,8 +205,10 @@
 * [SONiC Interface TPID](https://github.com/Azure/SONiC/blob/master/doc/tpid/SonicTPIDSettingHLD1.md)
 * [SPytest](https://github.com/Azure/sonic-mgmt/blob/master/spytest/Doc/intro.md)
 * [SRv6 uSID support in SONiC dataplane - uN, uA](https://github.com/sonic-net/SONiC/blob/master/doc/srv6/SRv6_uSID.md)
+* [SSH global config](https://github.com/sonic-net/SONiC/blob/master/doc/ssh_config/ssh_config.md)
 * [Standalone local clock setting](https://github.com/sonic-net/SONiC/blob/0ab39a3eaece239bbcfc23e73525c954a075096c/doc/Clock%20commands/clock_managment_hld.md)
 * [Structured message by streaming telemetry](https://github.com/sonic-net/SONiC/blob/9decb8c43b131fc9aeb1e28d8b55a548ae92248c/doc/event-alarm-framework/events-producer.md)
+* [Switch Port Modes and VLAN CLI Enhancement](https://github.com/sonic-net/SONiC/blob/master/doc/vlan/switchport-mode-support/Switchport%20Mode%20and%20VLAN%20CLI%20Enhancement.md)
 * [Support hardware reboot/reload reason (Streaming Telemetry)](https://github.com/Azure/SONiC/blob/master/doc/system-telemetry/reboot-cause.md)
 * Support for passing IS-IS, LDP and MicroBFD packets to CPU
 * [Support OpenSSL 3.0 SymCrypt provider and engine for bookworm](https://github.com/sonic-net/sonic-buildimage/pull/18088)
@@ -219,6 +218,7 @@
 * [System health and system LED](https://github.com/Azure/SONiC/blob/master/doc/system_health_monitoring/system-health-HLD.md)
 * [Systemd bootchart integration](https://github.com/sonic-net/SONiC/blob/master/doc/profiling/sonic_bootchart.md)
 * [System date row to ‘show version’](https://github.com/sonic-net/sonic-utilities/blob/master/doc/Command-Reference.md)
+* [System Ready Enhancements](https://github.com/sonic-net/SONiC/blob/master/doc/system_health_monitoring/system-ready-HLD.md)
 * [Thermal control](https://github.com/Azure/SONiC/blob/master/thermal-control-design.md)
 * [Third party container management using the Sonic Application Framework](https://github.com/sonic-net/SONiC/pull/1286)
 * Telemetry for Multi-ASIC
